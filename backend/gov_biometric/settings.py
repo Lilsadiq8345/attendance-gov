@@ -246,16 +246,22 @@ EAR_RECOGNITION_TOLERANCE = env.float("EAR_RECOGNITION_TOLERANCE", default=0.7)
 MIN_CONFIDENCE_THRESHOLD = env.float("MIN_CONFIDENCE_THRESHOLD", default=0.8)
 WORK_START_TIME = env("WORK_START_TIME", default="09:00")
 
-# Email Configuration
-EMAIL_BACKEND = env(
-    "EMAIL_BACKEND", default="django.core.mail.backends.console.EmailBackend"
-)
-EMAIL_HOST = env("EMAIL_HOST", default="localhost")
+# Email Configuration (disabled by default; safe in all environments)
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+EMAIL_HOST = "localhost"
 # Use a safe fallback if EMAIL_PORT is set but empty in the environment
-EMAIL_PORT = int(env("EMAIL_PORT", default=587) or 587)
-EMAIL_USE_TLS = env.bool("EMAIL_USE_TLS", default=True)
-EMAIL_HOST_USER = env("EMAIL_HOST_USER", default="")
-EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD", default="")
+# Render may inject an empty EMAIL_PORT (""), which crashes casts in django-environ
+# Read as raw string, then coerce safely
+_raw_email_port = env("EMAIL_PORT", default="")
+try:
+    EMAIL_PORT = (
+        int(str(_raw_email_port).strip()) if str(_raw_email_port).strip() else 587
+    )
+except (TypeError, ValueError):
+    EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD = ""
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 # Celery Configuration
@@ -328,12 +334,22 @@ RATELIMIT_USE_CACHE = "default"
 RATELIMIT_ENABLE = True
 
 # Cache Configuration
-CACHES = {
-    "default": {
-        "BACKEND": "django.core.cache.backends.redis.RedisCache",
-        "LOCATION": env("REDIS_URL", default="redis://127.0.0.1:6379/1"),
+_redis_url = env("REDIS_URL", default="")
+if str(_redis_url).strip():
+    CACHES = {
+        "default": {
+            "BACKEND": "django.core.cache.backends.redis.RedisCache",
+            "LOCATION": _redis_url,
+        }
     }
-}
+else:
+    # Fallback to in-process cache when Redis is not configured
+    CACHES = {
+        "default": {
+            "BACKEND": "django.core.cache.backends.locmem.LocMemCache",
+            "LOCATION": "attendance-local",
+        }
+    }
 
 # Session Configuration
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
