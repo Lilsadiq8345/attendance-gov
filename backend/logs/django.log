@@ -1,0 +1,1293 @@
+INFO 2025-08-10 16:34:16,322 autoreload 11624 4540233216 Watching for file changes with StatReloader
+INFO 2025-08-10 16:34:18,557 autoreload 11624 4540233216 /Users/admin/Documents/GitHub/attendance-gov/backend/gov_biometric/settings.py changed, reloading.
+INFO 2025-08-10 16:34:19,448 autoreload 11638 4611753472 Watching for file changes with StatReloader
+INFO 2025-08-10 16:39:04,518 autoreload 11638 4611753472 /Users/admin/Documents/GitHub/attendance-gov/backend/gov_biometric/settings.py changed, reloading.
+INFO 2025-08-10 16:39:07,608 autoreload 12298 4584846848 Watching for file changes with StatReloader
+INFO 2025-08-10 16:44:43,369 autoreload 12298 4584846848 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/admin.py changed, reloading.
+INFO 2025-08-10 16:44:54,779 autoreload 12896 4626728448 Watching for file changes with StatReloader
+INFO 2025-08-10 16:49:10,398 autoreload 12896 4626728448 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/admin.py changed, reloading.
+INFO 2025-08-10 16:49:23,623 autoreload 13971 4679865856 Watching for file changes with StatReloader
+INFO 2025-08-10 17:02:33,026 autoreload 13971 4679865856 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/admin.py changed, reloading.
+INFO 2025-08-10 17:02:46,059 autoreload 26111 4563281408 Watching for file changes with StatReloader
+INFO 2025-08-10 17:25:47,440 autoreload 26111 4563281408 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-10 17:26:02,967 autoreload 41785 4652713472 Watching for file changes with StatReloader
+INFO 2025-08-10 17:26:28,512 autoreload 41785 4652713472 /Users/admin/Documents/GitHub/attendance-gov/backend/gov_biometric/urls.py changed, reloading.
+INFO 2025-08-10 17:26:38,415 autoreload 41862 4476794368 Watching for file changes with StatReloader
+INFO 2025-08-10 17:28:06,667 autoreload 41862 4476794368 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/serializers.py changed, reloading.
+INFO 2025-08-10 17:28:15,491 autoreload 42050 4709025280 Watching for file changes with StatReloader
+INFO 2025-08-10 17:28:26,276 autoreload 42050 4709025280 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/serializers.py changed, reloading.
+INFO 2025-08-10 17:28:31,535 autoreload 42119 4673078784 Watching for file changes with StatReloader
+INFO 2025-08-10 17:30:42,620 autoreload 42119 4673078784 /Users/admin/Documents/GitHub/attendance-gov/backend/gov_biometric/settings.py changed, reloading.
+INFO 2025-08-10 17:30:53,715 autoreload 42571 4680345088 Watching for file changes with StatReloader
+INFO 2025-08-10 17:31:17,204 autoreload 42571 4680345088 /Users/admin/Documents/GitHub/attendance-gov/backend/gov_biometric/settings.py changed, reloading.
+INFO 2025-08-10 17:31:25,850 autoreload 42661 4529313280 Watching for file changes with StatReloader
+INFO 2025-08-10 17:34:23,547 autoreload 42661 4529313280 /Users/admin/Documents/GitHub/attendance-gov/backend/gov_biometric/settings.py changed, reloading.
+INFO 2025-08-10 17:34:27,369 autoreload 43004 4531414528 Watching for file changes with StatReloader
+INFO 2025-08-10 17:39:52,292 autoreload 43004 4531414528 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/admin.py changed, reloading.
+INFO 2025-08-10 17:40:01,313 autoreload 43607 4738242048 Watching for file changes with StatReloader
+INFO 2025-08-10 17:40:23,246 autoreload 43607 4738242048 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/biometric.py changed, reloading.
+INFO 2025-08-10 17:40:27,179 autoreload 43772 4706272768 Watching for file changes with StatReloader
+INFO 2025-08-10 17:40:41,508 autoreload 43772 4706272768 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/biometric.py changed, reloading.
+INFO 2025-08-10 17:40:51,726 autoreload 43789 4382205440 Watching for file changes with StatReloader
+INFO 2025-08-10 18:13:56,065 autoreload 43789 4382205440 /Users/admin/Documents/GitHub/attendance-gov/backend/gov_biometric/settings.py changed, reloading.
+INFO 2025-08-10 18:13:59,354 autoreload 46937 4525057536 Watching for file changes with StatReloader
+INFO 2025-08-10 18:15:16,355 autoreload 46937 4525057536 /Users/admin/Documents/GitHub/attendance-gov/backend/gov_biometric/settings.py changed, reloading.
+INFO 2025-08-10 18:15:24,524 autoreload 47081 4629386752 Watching for file changes with StatReloader
+INFO 2025-08-10 18:15:58,209 autoreload 47081 4629386752 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-10 18:16:06,587 autoreload 47143 4683363840 Watching for file changes with StatReloader
+INFO 2025-08-10 18:16:14,669 autoreload 47143 4683363840 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-10 18:16:21,547 autoreload 47179 4588983808 Watching for file changes with StatReloader
+INFO 2025-08-10 18:17:36,446 autoreload 47179 4588983808 /Users/admin/Documents/GitHub/attendance-gov/backend/gov_biometric/settings.py changed, reloading.
+INFO 2025-08-10 18:17:40,921 autoreload 47309 4745659904 Watching for file changes with StatReloader
+INFO 2025-08-10 18:18:11,451 autoreload 47309 4745659904 /Users/admin/Documents/GitHub/attendance-gov/backend/gov_biometric/settings.py changed, reloading.
+INFO 2025-08-10 18:18:15,813 autoreload 47360 4573345280 Watching for file changes with StatReloader
+INFO 2025-08-10 18:18:21,513 autoreload 47360 4573345280 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-10 18:18:25,144 autoreload 47377 4605896192 Watching for file changes with StatReloader
+INFO 2025-08-10 18:19:14,726 autoreload 47377 4605896192 /Users/admin/Documents/GitHub/attendance-gov/backend/gov_biometric/settings.py changed, reloading.
+INFO 2025-08-10 18:19:19,856 autoreload 47474 4624504320 Watching for file changes with StatReloader
+INFO 2025-08-10 18:24:53,757 autoreload 47474 4624504320 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/admin.py changed, reloading.
+INFO 2025-08-10 18:24:57,274 autoreload 48335 4543981056 Watching for file changes with StatReloader
+INFO 2025-08-10 18:25:16,010 autoreload 48335 4543981056 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/admin.py changed, reloading.
+INFO 2025-08-10 18:25:17,836 autoreload 48369 4587161088 Watching for file changes with StatReloader
+INFO 2025-08-10 18:25:41,959 basehttp 48369 123145438474240 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-10 18:25:45,305 basehttp 48369 123145438474240 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-10 18:25:45,549 basehttp 48369 123145455263744 "GET /api/user/ HTTP/1.1" 200 935
+INFO 2025-08-10 18:25:45,848 basehttp 48369 123145438474240 "GET /api/user/ HTTP/1.1" 200 935
+INFO 2025-08-10 18:25:45,980 basehttp 48369 123145455263744 "GET /api/user/ HTTP/1.1" 200 935
+INFO 2025-08-10 18:25:51,168 basehttp 48369 123145472053248 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-10 18:25:51,262 basehttp 48369 123145438474240 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-10 18:25:55,207 basehttp 48369 123145455263744 "GET /api/user/ HTTP/1.1" 200 935
+INFO 2025-08-10 18:25:56,249 basehttp 48369 123145472053248 "GET /api/user/ HTTP/1.1" 200 935
+INFO 2025-08-10 18:25:56,584 basehttp 48369 123145438474240 "GET /api/user/ HTTP/1.1" 200 935
+INFO 2025-08-10 18:25:56,766 basehttp 48369 123145455263744 "GET /api/user/ HTTP/1.1" 200 935
+INFO 2025-08-10 18:26:27,151 basehttp 48369 123145472053248 "GET /api/user/ HTTP/1.1" 200 935
+INFO 2025-08-10 18:26:27,337 basehttp 48369 123145438474240 "GET /api/user/ HTTP/1.1" 200 935
+INFO 2025-08-10 18:26:27,466 basehttp 48369 123145455263744 "GET /api/user/ HTTP/1.1" 200 935
+INFO 2025-08-10 18:26:27,747 basehttp 48369 123145472053248 "GET /api/user/ HTTP/1.1" 200 935
+INFO 2025-08-10 18:40:46,032 autoreload 48369 4587161088 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/admin.py changed, reloading.
+INFO 2025-08-10 18:40:48,846 autoreload 52292 4348585472 Watching for file changes with StatReloader
+WARNING 2025-08-10 18:53:19,223 log 54877 123145380728832 Unauthorized: /api/
+WARNING 2025-08-10 18:53:19,229 basehttp 54877 123145380728832 "GET /api/ HTTP/1.1" 401 58
+INFO 2025-08-10 18:53:47,462 basehttp 54877 123145397518336 "POST /api/auth/register/ HTTP/1.1" 201 915
+WARNING 2025-08-10 18:53:56,068 log 54877 123145380728832 Bad Request: /api/auth/register/
+WARNING 2025-08-10 18:53:56,069 basehttp 54877 123145380728832 "POST /api/auth/register/ HTTP/1.1" 400 35
+INFO 2025-08-10 18:54:15,032 basehttp 54877 123145397518336 "POST /api/auth/register/ HTTP/1.1" 201 919
+INFO 2025-08-10 18:54:33,127 basehttp 54877 123145414307840 "POST /api/auth/login/ HTTP/1.1" 200 483
+WARNING 2025-08-10 18:54:44,974 log 54877 123145380728832 Unauthorized: /api/user/
+WARNING 2025-08-10 18:54:44,982 basehttp 54877 123145380728832 "GET /api/user/ HTTP/1.1" 401 183
+INFO 2025-08-10 18:55:02,732 basehttp 54877 123145397518336 "POST /api/auth/login/ HTTP/1.1" 200 483
+WARNING 2025-08-10 18:55:14,764 log 54877 123145414307840 Unauthorized: /api/user/
+WARNING 2025-08-10 18:55:14,764 basehttp 54877 123145414307840 "GET /api/user/ HTTP/1.1" 401 183
+INFO 2025-08-10 18:55:34,982 basehttp 54877 123145431097344 "POST /api/auth/login/ HTTP/1.1" 200 483
+WARNING 2025-08-10 18:55:52,166 log 54877 123145380728832 Unauthorized: /api/user/
+WARNING 2025-08-10 18:55:52,166 basehttp 54877 123145380728832 "GET /api/user/ HTTP/1.1" 401 183
+INFO 2025-08-10 18:59:59,615 basehttp 54877 123145397518336 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-10 19:00:12,170 basehttp 54877 123145414307840 "GET /api/user/ HTTP/1.1" 200 939
+INFO 2025-08-10 19:00:26,877 basehttp 54877 123145431097344 "GET /api/admin/dashboard/ HTTP/1.1" 200 263
+INFO 2025-08-10 19:01:05,446 basehttp 54877 123145380728832 "POST /api/auth/login/ HTTP/1.1" 200 483
+WARNING 2025-08-10 19:01:57,224 log 54877 123145397518336 Unauthorized: /api/biometric/register/
+WARNING 2025-08-10 19:01:57,225 basehttp 54877 123145397518336 "POST /api/biometric/register/ HTTP/1.1" 401 183
+INFO 2025-08-10 19:02:20,226 basehttp 54877 123145414307840 "POST /api/auth/login/ HTTP/1.1" 200 483
+WARNING 2025-08-10 19:02:38,045 log 54877 123145431097344 Unauthorized: /api/biometric/register/
+WARNING 2025-08-10 19:02:38,046 basehttp 54877 123145431097344 "POST /api/biometric/register/ HTTP/1.1" 401 183
+WARNING 2025-08-10 19:06:24,308 log 54877 123145447886848 Unauthorized: /api/
+WARNING 2025-08-10 19:06:24,309 basehttp 54877 123145447886848 "GET /api/ HTTP/1.1" 401 58
+INFO 2025-08-10 19:06:42,912 basehttp 54877 123145464676352 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-10 19:06:56,157 basehttp 54877 123145380728832 "GET /api/user/ HTTP/1.1" 200 939
+WARNING 2025-08-10 19:07:09,814 log 54877 123145397518336 Bad Request: /api/biometric/register/
+WARNING 2025-08-10 19:07:09,814 basehttp 54877 123145397518336 "POST /api/biometric/register/ HTTP/1.1" 400 94
+INFO 2025-08-10 19:07:29,131 basehttp 54877 123145414307840 "POST /api/biometric/register/ HTTP/1.1" 201 1133
+WARNING 2025-08-10 19:07:49,800 log 54877 123145380728832 Bad Request: /api/attendance/mark/
+WARNING 2025-08-10 19:07:49,800 basehttp 54877 123145380728832 "POST /api/attendance/mark/ HTTP/1.1" 400 149
+ERROR 2025-08-10 19:08:23,570 log 54877 123145397518336 Internal Server Error: /api/attendance/mark/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py", line 171, in post
+    attendance = AttendanceRecord.objects.create(
+        user=user,
+    ...<9 lines>...
+        notes=data.get('notes')
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/query.py", line 1864, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1881, in execute_sql
+    for sql, params in self.as_sql():
+                       ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1806, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1741, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/fields/json.py", line 118, in get_db_prep_save
+    return super().get_db_prep_save(value, connection)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/fields/__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/fields/json.py", line 102, in get_db_prep_value
+    return connection.ops.adapt_json_value(value, self.encoder)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/backends/base/operations.py", line 598, in adapt_json_value
+    return json.dumps(value, cls=encoder)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type datetime is not JSON serializable
+ERROR 2025-08-10 19:08:23,847 basehttp 54877 123145397518336 "POST /api/attendance/mark/ HTTP/1.1" 500 198161
+INFO 2025-08-10 19:09:47,804 basehttp 54877 123145380728832 "GET /swagger/ HTTP/1.1" 200 1659
+INFO 2025-08-10 19:10:08,857 basehttp 54877 123145414307840 "POST /api/attendance/mark/ HTTP/1.1" 201 548
+INFO 2025-08-10 19:12:10,961 basehttp 54877 123145380728832 "POST /api/attendance/mark/ HTTP/1.1" 201 553
+INFO 2025-08-10 19:19:51,505 basehttp 54877 123145397518336 "GET /api/attendance/ HTTP/1.1" 200 1019
+INFO 2025-08-10 19:20:07,602 basehttp 54877 123145414307840 "POST /api/biometric/verify/ HTTP/1.1" 200 97
+INFO 2025-08-10 19:20:21,797 basehttp 54877 123145431097344 "GET /api/biometric/session/2c076a95-d7cd-4165-b18f-64981e633fe9/ HTTP/1.1" 200 267
+INFO 2025-08-10 19:20:35,681 basehttp 54877 123145380728832 "GET /api/admin/users/ HTTP/1.1" 200 2639
+WARNING 2025-08-10 19:23:53,443 log 54877 123145397518336 Unauthorized: /api/auth/refresh/
+WARNING 2025-08-10 19:23:53,447 basehttp 54877 123145397518336 "POST /api/auth/refresh/ HTTP/1.1" 401 65
+INFO 2025-08-10 19:24:12,590 basehttp 54877 123145414307840 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-10 19:24:27,338 basehttp 54877 123145447886848 "POST /api/auth/refresh/ HTTP/1.1" 200 483
+INFO 2025-08-10 19:24:39,548 basehttp 54877 123145380728832 "GET /swagger/ HTTP/1.1" 200 1659
+INFO 2025-08-10 19:24:51,171 basehttp 54877 123145397518336 "GET /redoc/ HTTP/1.1" 200 952
+INFO 2025-08-10 19:25:04,842 basehttp 54877 123145414307840 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-10 19:25:24,427 basehttp 54877 123145431097344 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-10 19:25:35,404 basehttp 54877 123145380728832 "GET /api/user/ HTTP/1.1" 200 940
+INFO 2025-08-10 19:25:53,515 basehttp 54877 123145397518336 "GET /api/attendance/ HTTP/1.1" 200 52
+WARNING 2025-08-10 19:26:08,634 log 54877 123145414307840 Bad Request: /api/attendance/mark/
+WARNING 2025-08-10 19:26:08,636 basehttp 54877 123145414307840 "POST /api/attendance/mark/ HTTP/1.1" 400 59
+INFO 2025-08-10 19:26:21,709 basehttp 54877 123145431097344 "POST /api/biometric/register/ HTTP/1.1" 201 1134
+ERROR 2025-08-10 19:26:37,826 log 54877 123145380728832 Internal Server Error: /api/attendance/mark/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py", line 171, in post
+    attendance = AttendanceRecord.objects.create(
+        user=user,
+    ...<9 lines>...
+        notes=data.get('notes')
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/query.py", line 1864, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1881, in execute_sql
+    for sql, params in self.as_sql():
+                       ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1806, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1741, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/fields/json.py", line 118, in get_db_prep_save
+    return super().get_db_prep_save(value, connection)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/fields/__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/fields/json.py", line 102, in get_db_prep_value
+    return connection.ops.adapt_json_value(value, self.encoder)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/backends/base/operations.py", line 598, in adapt_json_value
+    return json.dumps(value, cls=encoder)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type datetime is not JSON serializable
+ERROR 2025-08-10 19:26:37,896 basehttp 54877 123145380728832 "POST /api/attendance/mark/ HTTP/1.1" 500 198297
+ERROR 2025-08-10 19:35:44,004 log 54877 123145397518336 Internal Server Error: /api/attendance/mark/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py", line 171, in post
+    attendance = AttendanceRecord.objects.create(
+        user=user,
+    ...<9 lines>...
+        notes=data.get('notes')
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/query.py", line 1864, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1881, in execute_sql
+    for sql, params in self.as_sql():
+                       ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1806, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1741, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/fields/json.py", line 118, in get_db_prep_save
+    return super().get_db_prep_save(value, connection)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/fields/__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/models/fields/json.py", line 102, in get_db_prep_value
+    return connection.ops.adapt_json_value(value, self.encoder)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/db/backends/base/operations.py", line 598, in adapt_json_value
+    return json.dumps(value, cls=encoder)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type datetime is not JSON serializable
+ERROR 2025-08-10 19:35:44,014 basehttp 54877 123145397518336 "POST /api/attendance/mark/ HTTP/1.1" 500 198297
+WARNING 2025-08-10 22:49:01,186 log 54877 123145414307840 Unauthorized: /api/attendance/mark/
+WARNING 2025-08-10 22:49:01,194 basehttp 54877 123145414307840 "POST /api/attendance/mark/ HTTP/1.1" 401 107
+INFO 2025-08-10 22:49:23,674 basehttp 54877 123145431097344 "POST /api/auth/login/ HTTP/1.1" 200 483
+WARNING 2025-08-10 22:49:34,394 log 54877 123145447886848 Unauthorized: /api/attendance/mark/
+WARNING 2025-08-10 22:49:34,395 basehttp 54877 123145447886848 "POST /api/attendance/mark/ HTTP/1.1" 401 183
+INFO 2025-08-10 22:51:00,964 basehttp 54877 123145464676352 "POST /api/auth/login/ HTTP/1.1" 200 483
+WARNING 2025-08-10 22:51:25,504 log 54877 123145481465856 Unauthorized: /api/attendance/mark/
+WARNING 2025-08-10 22:51:25,506 basehttp 54877 123145481465856 "POST /api/attendance/mark/ HTTP/1.1" 401 183
+INFO 2025-08-10 23:53:05,291 basehttp 94561 123145399029760 "POST /api/auth/login/ HTTP/1.1" 200 483
+WARNING 2025-08-10 23:53:18,345 log 94561 123145399029760 Unauthorized: /api/attendance/mark/
+WARNING 2025-08-10 23:53:18,347 basehttp 94561 123145399029760 "POST /api/attendance/mark/ HTTP/1.1" 401 183
+WARNING 2025-08-11 00:00:42,915 log 154 123145506111488 Unauthorized: /api/
+WARNING 2025-08-11 00:00:42,917 basehttp 154 123145506111488 "GET /api/ HTTP/1.1" 401 58
+WARNING 2025-08-11 00:01:07,277 log 154 123145522900992 Bad Request: /api/auth/register/
+WARNING 2025-08-11 00:01:07,321 basehttp 154 123145522900992 "POST /api/auth/register/ HTTP/1.1" 400 35
+INFO 2025-08-11 00:04:22,775 basehttp 154 123145506111488 "POST /api/auth/register/ HTTP/1.1" 201 923
+INFO 2025-08-11 00:04:34,764 basehttp 154 123145506111488 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 00:04:44,676 basehttp 154 123145506111488 "GET /api/user/ HTTP/1.1" 200 953
+INFO 2025-08-11 00:04:58,625 basehttp 154 123145522900992 "POST /api/biometric/register/ HTTP/1.1" 201 1171
+INFO 2025-08-11 00:05:15,578 basehttp 154 123145506111488 "POST /api/attendance/mark/ HTTP/1.1" 201 721
+INFO 2025-08-11 00:05:28,789 basehttp 154 123145539690496 "POST /api/attendance/mark/ HTTP/1.1" 201 726
+WARNING 2025-08-11 00:05:37,675 log 154 123145506111488 Forbidden: /api/admin/dashboard/
+WARNING 2025-08-11 00:05:37,676 basehttp 154 123145506111488 "GET /api/admin/dashboard/ HTTP/1.1" 403 33
+INFO 2025-08-11 00:05:53,774 basehttp 154 123145522900992 "GET /api/attendance/ HTTP/1.1" 200 1365
+INFO 2025-08-11 00:06:06,706 basehttp 154 123145539690496 "POST /api/biometric/verify/ HTTP/1.1" 200 97
+INFO 2025-08-11 00:06:19,400 basehttp 154 123145556480000 "GET /api/biometric/session/f7061787-7237-4655-8dc4-f2db09b93fae/ HTTP/1.1" 200 263
+INFO 2025-08-11 00:08:57,079 basehttp 154 123145506111488 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 00:09:05,699 basehttp 154 123145522900992 "GET /api/admin/dashboard/ HTTP/1.1" 200 2574
+INFO 2025-08-11 00:09:14,308 basehttp 154 123145539690496 "GET /api/admin/users/ HTTP/1.1" 200 3968
+INFO 2025-08-11 00:09:26,911 basehttp 154 123145506111488 "GET /api/attendance/today/ HTTP/1.1" 200 999
+INFO 2025-08-11 00:09:35,015 basehttp 154 123145522900992 "GET /api/attendance/weekly/ HTTP/1.1" 200 1073
+INFO 2025-08-11 00:09:45,184 basehttp 154 123145539690496 "GET /api/attendance/monthly/ HTTP/1.1" 200 1096
+WARNING 2025-08-11 00:10:01,079 log 154 123145506111488 Bad Request: /api/biometric/verify/
+WARNING 2025-08-11 00:10:01,080 basehttp 154 123145506111488 "POST /api/biometric/verify/ HTTP/1.1" 400 87
+INFO 2025-08-11 00:10:38,909 basehttp 154 123145522900992 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-11 00:10:50,466 basehttp 154 123145506111488 "GET /swagger/ HTTP/1.1" 200 1659
+INFO 2025-08-11 00:11:26,771 basehttp 154 123145539690496 "GET /redoc/ HTTP/1.1" 200 952
+INFO 2025-08-11 00:11:40,302 basehttp 154 123145556480000 "POST /api/biometric/verify/ HTTP/1.1" 200 97
+INFO 2025-08-11 00:11:49,455 basehttp 154 123145506111488 "GET /api/biometric/session/f00b090c-7c4c-445b-a56b-7bb4656ad373/ HTTP/1.1" 200 263
+INFO 2025-08-11 00:12:02,977 basehttp 154 123145522900992 "PUT /api/biometric/session/f00b090c-7c4c-445b-a56b-7bb4656ad373/ HTTP/1.1" 200 338
+WARNING 2025-08-11 00:12:14,453 log 154 123145539690496 Bad Request: /api/user/
+WARNING 2025-08-11 00:12:14,455 basehttp 154 123145539690496 "PUT /api/user/ HTTP/1.1" 400 41
+WARNING 2025-08-11 00:13:03,470 log 154 123145573269504 Bad Request: /api/user/
+WARNING 2025-08-11 00:13:03,471 basehttp 154 123145573269504 "PUT /api/user/ HTTP/1.1" 400 41
+WARNING 2025-08-11 00:13:49,813 log 154 123145506111488 Bad Request: /api/user/
+WARNING 2025-08-11 00:13:49,815 basehttp 154 123145506111488 "PUT /api/user/ HTTP/1.1" 400 41
+WARNING 2025-08-11 00:16:38,305 log 154 123145522900992 Bad Request: /api/user/
+WARNING 2025-08-11 00:16:38,311 basehttp 154 123145522900992 "PUT /api/user/ HTTP/1.1" 400 41
+WARNING 2025-08-11 00:22:39,720 log 16053 123145509457920 Unauthorized: /api/user/
+WARNING 2025-08-11 00:22:39,726 basehttp 16053 123145509457920 "PUT /api/user/ HTTP/1.1" 401 107
+INFO 2025-08-11 00:23:01,873 basehttp 16053 123145526247424 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 00:25:02,716 basehttp 16053 123145509457920 "PUT /api/user/ HTTP/1.1" 200 183
+INFO 2025-08-11 00:25:34,301 basehttp 16053 123145526247424 "PATCH /api/user/ HTTP/1.1" 200 214
+INFO 2025-08-11 00:25:49,276 basehttp 16053 123145543036928 "PUT /api/user/ HTTP/1.1" 200 222
+INFO 2025-08-11 00:26:33,939 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 1166
+WARNING 2025-08-11 00:26:49,023 log 16053 123145526247424 Unauthorized: /api/admin/dashboard/
+WARNING 2025-08-11 00:26:49,025 basehttp 16053 123145526247424 "GET /api/admin/dashboard/ HTTP/1.1" 401 183
+WARNING 2025-08-11 00:27:10,160 log 16053 123145559826432 Unauthorized: /api/auth/login/
+WARNING 2025-08-11 00:27:10,176 basehttp 16053 123145559826432 "POST /api/auth/login/ HTTP/1.1" 401 63
+WARNING 2025-08-11 00:27:31,338 log 16053 123145509457920 Unauthorized: /api/auth/login/
+WARNING 2025-08-11 00:27:31,349 basehttp 16053 123145509457920 "POST /api/auth/login/ HTTP/1.1" 401 63
+WARNING 2025-08-11 00:28:23,626 log 16053 123145526247424 Unauthorized: /api/auth/login/
+WARNING 2025-08-11 00:28:23,628 basehttp 16053 123145526247424 "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2025-08-11 00:29:34,173 basehttp 16053 123145543036928 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 00:29:55,455 basehttp 16053 123145559826432 "GET /api/admin/dashboard/ HTTP/1.1" 200 2641
+INFO 2025-08-11 00:30:08,534 basehttp 16053 123145509457920 "GET /api/admin/users/ HTTP/1.1" 200 4018
+INFO 2025-08-11 00:30:22,572 basehttp 16053 123145526247424 "GET /api/attendance/ HTTP/1.1" 200 2379
+INFO 2025-08-11 00:30:41,859 basehttp 16053 123145543036928 "POST /api/biometric/verify/ HTTP/1.1" 200 97
+WARNING 2025-08-11 00:30:58,284 log 16053 123145509457920 Unauthorized: /api/biometric/session/85e7213b-04a5-4af9-809a-82f6c49862d8/
+WARNING 2025-08-11 00:30:58,285 basehttp 16053 123145509457920 "GET /api/biometric/session/85e7213b-04a5-4af9-809a-82f6c49862d8/ HTTP/1.1" 401 183
+INFO 2025-08-11 00:31:27,503 basehttp 16053 123145526247424 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 00:32:04,507 basehttp 16053 123145543036928 "GET /api/biometric/session/85e7213b-04a5-4af9-809a-82f6c49862d8/ HTTP/1.1" 200 272
+WARNING 2025-08-11 00:32:41,301 log 16053 123145559826432 Bad Request: /api/attendance/mark/
+WARNING 2025-08-11 00:32:41,304 basehttp 16053 123145559826432 "POST /api/attendance/mark/ HTTP/1.1" 400 72
+INFO 2025-08-11 00:33:02,421 basehttp 16053 123145576615936 "POST /api/auth/register/ HTTP/1.1" 201 923
+INFO 2025-08-11 00:33:23,706 basehttp 16053 123145509457920 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 00:33:42,037 basehttp 16053 123145526247424 "POST /api/biometric/register/ HTTP/1.1" 201 1171
+WARNING 2025-08-11 00:34:00,083 log 16053 123145543036928 Bad Request: /api/attendance/mark/
+WARNING 2025-08-11 00:34:00,084 basehttp 16053 123145543036928 "POST /api/attendance/mark/ HTTP/1.1" 400 72
+INFO 2025-08-11 00:34:14,254 basehttp 16053 123145509457920 "GET /api/attendance/?date=today HTTP/1.1" 200 52
+INFO 2025-08-11 00:34:30,295 basehttp 16053 123145526247424 "GET /api/attendance/?date=weekly HTTP/1.1" 200 52
+INFO 2025-08-11 00:35:05,462 basehttp 16053 123145543036928 "HEAD /admin/ HTTP/1.1" 302 0
+WARNING 2025-08-11 00:36:02,363 log 16053 123145509457920 Unauthorized: /api/
+WARNING 2025-08-11 00:36:02,365 basehttp 16053 123145509457920 "GET /api/ HTTP/1.1" 401 58
+INFO 2025-08-11 00:38:05,472 basehttp 16053 123145526247424 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 00:38:05,915 basehttp 16053 123145559826432 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:38:06,040 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:38:06,237 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:39:15,221 basehttp 16053 123145543036928 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 00:39:15,347 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:39:15,484 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:39:15,765 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 955
+WARNING 2025-08-11 00:40:31,901 log 16053 123145509457920 Unauthorized: /api/
+WARNING 2025-08-11 00:40:31,904 basehttp 16053 123145509457920 "GET /api/ HTTP/1.1" 401 58
+INFO 2025-08-11 00:53:49,592 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:53:49,871 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:53:50,333 basehttp 16053 123145559826432 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:53:50,364 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:54:11,771 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:54:11,975 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:54:12,023 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:54:12,097 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:58:51,576 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:58:51,737 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:58:51,856 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 00:58:51,889 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 01:09:05,282 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 01:09:06,993 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 01:09:07,196 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 01:09:07,232 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 955
+WARNING 2025-08-11 06:48:02,701 log 16053 123145526247424 Bad Request: /api/auth/register/
+WARNING 2025-08-11 06:48:02,703 basehttp 16053 123145526247424 "POST /api/auth/register/ HTTP/1.1" 400 45
+WARNING 2025-08-11 06:48:09,239 log 16053 123145543036928 Bad Request: /api/auth/register/
+WARNING 2025-08-11 06:48:09,239 basehttp 16053 123145543036928 "POST /api/auth/register/ HTTP/1.1" 400 45
+WARNING 2025-08-11 06:48:49,586 log 16053 123145559826432 Bad Request: /api/auth/register/
+WARNING 2025-08-11 06:48:49,587 basehttp 16053 123145559826432 "POST /api/auth/register/ HTTP/1.1" 400 45
+INFO 2025-08-11 07:06:16,162 basehttp 16053 123145576615936 "POST /api/auth/register/ HTTP/1.1" 201 932
+INFO 2025-08-11 07:06:30,560 basehttp 16053 123145509457920 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 07:06:30,946 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:06:31,196 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:06:31,527 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:07:38,485 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:07:38,928 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:07:39,093 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:07:39,131 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:10:46,606 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:10:46,768 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:10:47,505 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:10:47,967 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:29:33,092 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:29:34,541 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:29:34,866 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:29:35,183 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+WARNING 2025-08-11 07:40:05,979 log 16053 123145526247424 Unauthorized: /api/
+WARNING 2025-08-11 07:40:05,980 basehttp 16053 123145526247424 "GET /api/ HTTP/1.1" 401 58
+INFO 2025-08-11 07:40:30,082 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:40:31,495 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:40:31,891 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:40:35,394 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:49:55,611 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:49:55,650 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:49:55,890 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 07:49:56,007 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:10:48,635 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:10:48,695 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:10:48,743 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:10:48,775 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:50:21,823 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:50:21,968 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:50:22,032 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:50:22,132 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+WARNING 2025-08-11 08:54:11,944 log 16053 123145509457920 Bad Request: /api/auth/register/
+WARNING 2025-08-11 08:54:11,945 basehttp 16053 123145509457920 "POST /api/auth/register/ HTTP/1.1" 400 34
+INFO 2025-08-11 08:55:14,631 basehttp 16053 123145526247424 "POST /api/auth/register/ HTTP/1.1" 201 922
+INFO 2025-08-11 08:55:36,734 basehttp 16053 123145543036928 "POST /api/auth/login/ HTTP/1.1" 200 483
+WARNING 2025-08-11 08:56:04,084 log 16053 123145559826432 Unauthorized: /api/user/
+WARNING 2025-08-11 08:56:04,090 basehttp 16053 123145559826432 "GET /api/user/ HTTP/1.1" 401 183
+INFO 2025-08-11 08:56:18,840 basehttp 16053 123145576615936 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 08:56:21,774 basehttp 16053 123145509457920 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 08:56:34,245 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 952
+INFO 2025-08-11 08:56:48,111 basehttp 16053 123145543036928 "POST /api/biometric/register/ HTTP/1.1" 201 1181
+INFO 2025-08-11 08:57:07,781 basehttp 16053 123145559826432 "POST /api/attendance/mark/ HTTP/1.1" 201 715
+INFO 2025-08-11 08:57:27,480 basehttp 16053 123145509457920 "GET /api/attendance/ HTTP/1.1" 200 700
+INFO 2025-08-11 08:58:19,477 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:58:19,637 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:58:19,746 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:58:19,845 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:58:44,099 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:58:44,182 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:58:44,291 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 08:58:44,370 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:00:24,400 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:00:24,719 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:00:24,871 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:00:24,983 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:04:03,197 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:04:03,385 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:04:03,928 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:04:04,545 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:06:26,598 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:06:27,074 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:06:27,505 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:06:27,548 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:07:38,920 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:07:38,996 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:07:39,316 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:07:39,603 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:08:12,928 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:08:13,009 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:08:13,209 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 962
+INFO 2025-08-11 09:08:14,138 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 962
+WARNING 2025-08-11 12:22:06,166 log 16053 123145509457920 Unauthorized: /api/user/
+WARNING 2025-08-11 12:22:06,243 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 401 183
+INFO 2025-08-11 12:22:17,200 basehttp 16053 123145526247424 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 12:22:19,317 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:22:20,456 basehttp 16053 123145559826432 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:22:20,818 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:22:59,958 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:23:00,158 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:23:00,529 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:23:00,634 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:24:29,026 basehttp 16053 123145543036928 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-11 12:24:29,036 basehttp 16053 123145559826432 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-11 12:25:58,172 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:25:59,576 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:26:00,296 basehttp 16053 123145559826432 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:26:00,474 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:26:02,354 basehttp 16053 123145543036928 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-11 12:26:02,498 basehttp 16053 123145526247424 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-11 12:26:05,867 basehttp 16053 123145559826432 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:26:06,050 basehttp 16053 123145509457920 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:26:06,199 basehttp 16053 123145526247424 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 12:26:09,559 basehttp 16053 123145543036928 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 13:37:38,676 autoreload 4841 4793673216 Watching for file changes with StatReloader
+WARNING 2025-08-11 13:43:28,577 log 4841 123145570566144 Unauthorized: /api/user/
+WARNING 2025-08-11 13:43:28,616 basehttp 4841 123145570566144 "GET /api/user/ HTTP/1.1" 401 183
+INFO 2025-08-11 13:43:46,124 basehttp 4841 123145570566144 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-11 13:43:46,629 basehttp 4841 123145570566144 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 13:43:47,024 basehttp 4841 123145587355648 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 13:43:47,820 basehttp 4841 123145570566144 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 14:09:49,100 basehttp 4841 123145587355648 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 14:10:03,353 basehttp 4841 123145604145152 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 14:10:03,517 basehttp 4841 123145570566144 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-11 14:10:03,776 basehttp 4841 123145587355648 "GET /api/user/ HTTP/1.1" 200 955
+WARNING 2025-08-12 12:59:18,730 log 4841 123145570566144 Unauthorized: /api/user/
+WARNING 2025-08-12 12:59:18,741 log 4841 123145587355648 Unauthorized: /api/user/
+WARNING 2025-08-12 12:59:18,839 basehttp 4841 123145587355648 "GET /api/user/ HTTP/1.1" 401 183
+WARNING 2025-08-12 12:59:18,887 basehttp 4841 123145570566144 "GET /api/user/ HTTP/1.1" 401 183
+INFO 2025-08-12 12:59:28,186 basehttp 4841 123145604145152 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-12 12:59:29,016 basehttp 4841 123145620934656 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-12 12:59:29,993 basehttp 4841 123145637724160 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-12 12:59:30,540 basehttp 4841 123145570566144 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-12 13:44:26,800 basehttp 4841 123145587355648 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-12 13:44:27,630 basehttp 4841 123145570566144 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-12 13:44:27,722 basehttp 4841 123145587355648 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-12 13:44:28,192 basehttp 4841 123145604145152 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-12 17:10:11,072 basehttp 4841 123145587355648 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-12 17:10:11,078 basehttp 4841 123145570566144 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-12 17:10:48,083 basehttp 4841 123145604145152 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-12 17:10:48,934 basehttp 4841 123145570566144 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-12 17:10:49,658 basehttp 4841 123145587355648 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-12 17:10:50,055 basehttp 4841 123145570566144 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 04:43:59,551 autoreload 3745 4628674048 Watching for file changes with StatReloader
+WARNING 2025-08-13 04:44:17,635 log 3745 123145388126208 Unauthorized: /api/user/
+WARNING 2025-08-13 04:44:17,638 basehttp 3745 123145388126208 "GET /api/user/ HTTP/1.1" 401 183
+INFO 2025-08-13 04:44:45,868 basehttp 3745 123145388126208 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-13 04:44:46,015 basehttp 3745 123145388126208 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 04:44:46,227 basehttp 3745 123145404915712 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 04:44:46,333 basehttp 3745 123145388126208 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 04:45:03,331 basehttp 3745 123145404915712 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 04:45:03,720 basehttp 3745 123145421705216 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 04:45:03,767 basehttp 3745 123145388126208 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 04:45:04,044 basehttp 3745 123145404915712 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:06:13,861 autoreload 3745 4628674048 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-13 05:06:29,974 autoreload 4652 4561909248 Watching for file changes with StatReloader
+INFO 2025-08-13 05:12:34,156 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:12:36,535 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:12:36,956 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:12:37,050 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:13:01,332 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:13:01,635 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:13:01,686 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:13:01,751 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:13:18,240 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:13:18,431 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:13:18,516 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:13:18,592 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:45:22,657 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:45:22,781 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:45:22,811 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:45:23,142 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:46:05,758 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:46:08,041 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:46:08,444 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 05:46:08,504 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:11:38,070 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:11:38,746 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:11:39,008 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:11:39,240 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:17:11,612 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:17:21,567 basehttp 4652 123145422270464 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-13 06:17:21,889 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:17:22,040 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:17:22,146 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:26:10,497 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:26:14,195 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:26:14,266 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:26:14,790 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:30:18,475 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:30:19,045 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:30:19,187 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:30:19,254 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:33:36,660 basehttp 4652 123145388691456 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-13 06:33:37,317 basehttp 4652 123145405480960 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-13 06:33:44,274 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:33:45,946 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:33:45,998 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:33:46,094 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:41:23,569 basehttp 4652 123145388691456 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-13 06:41:23,570 basehttp 4652 123145405480960 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-13 06:41:26,861 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:41:27,345 basehttp 4652 123145439059968 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:41:27,416 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:41:27,507 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:41:28,936 basehttp 4652 123145388691456 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-13 06:41:28,937 basehttp 4652 123145405480960 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-13 06:50:35,832 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:50:39,209 basehttp 4652 123145439059968 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:50:40,217 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:50:41,324 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:51:03,180 basehttp 4652 123145388691456 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-13 06:51:03,187 basehttp 4652 123145405480960 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-13 06:54:05,495 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:54:05,707 basehttp 4652 123145439059968 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:54:06,675 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:54:06,950 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:56:50,262 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:56:53,163 basehttp 4652 123145405480960 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:56:53,403 basehttp 4652 123145422270464 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:56:53,585 basehttp 4652 123145388691456 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 06:57:01,005 basehttp 4652 123145405480960 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-13 06:57:01,014 basehttp 4652 123145422270464 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-13 06:58:42,437 autoreload 12261 4503451136 Watching for file changes with StatReloader
+INFO 2025-08-13 07:07:07,791 basehttp 12261 123145494597632 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-13 07:07:27,725 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:07:28,991 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:07:30,000 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:07:31,886 basehttp 12261 123145544966144 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-13 07:07:32,281 basehttp 12261 123145528176640 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-13 07:07:36,725 basehttp 12261 123145511387136 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-13 07:07:37,060 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:13:20,524 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:13:22,054 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:13:22,319 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:13:22,419 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:23:41,408 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:23:44,317 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:23:44,521 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:23:44,810 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:23:49,170 basehttp 12261 123145511387136 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-13 07:23:49,182 basehttp 12261 123145528176640 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-13 07:24:29,735 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:24:32,250 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:24:32,400 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:24:32,774 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:25:29,093 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:25:29,550 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:25:29,737 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:25:29,895 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:35:29,834 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:35:30,010 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:35:30,276 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:35:30,327 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:36:37,472 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:36:38,084 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:36:38,203 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:36:38,536 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:37:29,464 basehttp 12261 123145494597632 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-13 07:37:30,213 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:37:30,730 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:37:30,823 basehttp 12261 123145544966144 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:40:34,765 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:40:36,822 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:40:37,022 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:40:37,096 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:43:27,565 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:43:30,172 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:43:30,622 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:43:30,766 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:44:42,967 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:44:44,965 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:44:45,125 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:44:45,896 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:44:50,782 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:44:52,085 basehttp 12261 123145544966144 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-13 07:44:52,089 basehttp 12261 123145528176640 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-13 07:58:47,846 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:58:49,845 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:58:50,047 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:58:50,262 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:59:34,037 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:59:34,766 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:59:34,888 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 07:59:35,136 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 08:51:00,738 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 08:51:14,837 basehttp 12261 123145511387136 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-13 08:51:15,471 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 08:51:15,943 basehttp 12261 123145544966144 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 08:51:16,105 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 955
+INFO 2025-08-13 08:54:59,645 basehttp 12261 123145511387136 "POST /api/biometric/register/ HTTP/1.1" 201 5437
+INFO 2025-08-13 08:54:59,946 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-13 08:55:00,054 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-13 08:55:00,230 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-13 08:55:00,289 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-13 08:55:28,558 basehttp 12261 123145511387136 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-13 08:55:28,568 basehttp 12261 123145561755648 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-13 08:56:42,424 basehttp 12261 123145494597632 "POST /api/attendance/mark/ HTTP/1.1" 201 5220
+INFO 2025-08-13 08:56:43,280 basehttp 12261 123145511387136 "GET /api/attendance/today/ HTTP/1.1" 200 5155
+INFO 2025-08-13 08:58:51,151 basehttp 12261 123145494597632 "POST /api/attendance/mark/ HTTP/1.1" 201 5226
+INFO 2025-08-13 08:58:51,200 basehttp 12261 123145511387136 "POST /api/attendance/mark/ HTTP/1.1" 201 5226
+INFO 2025-08-13 08:58:51,609 basehttp 12261 123145528176640 "GET /api/attendance/today/ HTTP/1.1" 200 15473
+INFO 2025-08-13 08:58:51,765 basehttp 12261 123145494597632 "GET /api/attendance/today/ HTTP/1.1" 200 15473
+INFO 2025-08-13 09:13:43,000 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:13:53,926 basehttp 12261 123145528176640 "PUT /api/user/ HTTP/1.1" 200 164
+INFO 2025-08-13 09:13:54,598 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:13:55,071 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:21:20,430 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:21:20,433 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:21:25,674 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:21:29,749 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:21:31,519 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:21:31,965 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 5469
+WARNING 2025-08-13 09:22:35,102 log 12261 123145494597632 Bad Request: /api/biometric/register/
+WARNING 2025-08-13 09:22:35,114 basehttp 12261 123145494597632 "POST /api/biometric/register/ HTTP/1.1" 400 58
+INFO 2025-08-13 09:22:37,660 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:22:38,898 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:22:39,108 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:22:39,512 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:22:44,059 basehttp 12261 123145561755648 "GET /api/attendance/ HTTP/1.1" 200 15523
+INFO 2025-08-13 09:22:44,249 basehttp 12261 123145528176640 "GET /api/attendance/today/ HTTP/1.1" 200 15473
+INFO 2025-08-13 09:23:54,908 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:23:57,489 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:24:05,030 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:24:05,700 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:44:40,235 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:44:41,570 basehttp 12261 123145494597632 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:44:41,790 basehttp 12261 123145511387136 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 09:44:41,870 basehttp 12261 123145528176640 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:17:27,660 autoreload 35367 4686312960 Watching for file changes with StatReloader
+INFO 2025-08-13 11:18:01,087 basehttp 35367 123145410347008 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-13 11:18:01,499 basehttp 35367 123145410347008 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:18:01,834 basehttp 35367 123145427136512 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:18:01,959 basehttp 35367 123145410347008 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:18:27,738 basehttp 35367 123145410347008 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:18:28,189 basehttp 35367 123145427136512 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:18:28,264 basehttp 35367 123145443926016 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:18:28,386 basehttp 35367 123145410347008 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:19:48,632 basehttp 35367 123145427136512 "POST /api/auth/register/ HTTP/1.1" 201 950
+INFO 2025-08-13 11:19:54,731 basehttp 35367 123145410347008 "POST /api/auth/login/ HTTP/1.1" 200 486
+INFO 2025-08-13 11:19:54,928 basehttp 35367 123145427136512 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 11:19:55,060 basehttp 35367 123145443926016 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 11:19:55,197 basehttp 35367 123145460715520 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 11:20:00,954 basehttp 35367 123145410347008 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-13 11:20:00,959 basehttp 35367 123145427136512 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-13 11:23:03,058 basehttp 35367 123145443926016 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-13 11:23:03,515 basehttp 35367 123145410347008 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:23:03,669 basehttp 35367 123145427136512 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:23:03,831 basehttp 35367 123145443926016 "GET /api/user/ HTTP/1.1" 200 5469
+WARNING 2025-08-13 11:28:48,423 log 35367 123145410347008 Bad Request: /api/biometric/register/
+WARNING 2025-08-13 11:28:48,427 basehttp 35367 123145410347008 "POST /api/biometric/register/ HTTP/1.1" 400 58
+INFO 2025-08-13 11:29:08,786 basehttp 35367 123145443926016 "GET /api/attendance/ HTTP/1.1" 200 15523
+INFO 2025-08-13 11:29:09,173 basehttp 35367 123145427136512 "GET /api/attendance/today/ HTTP/1.1" 200 15473
+INFO 2025-08-13 11:30:33,127 basehttp 35367 123145410347008 "GET /api/attendance/today/ HTTP/1.1" 200 15473
+INFO 2025-08-13 11:30:33,130 basehttp 35367 123145427136512 "GET /api/attendance/ HTTP/1.1" 200 15523
+INFO 2025-08-13 11:32:04,727 basehttp 35367 123145443926016 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:32:04,899 basehttp 35367 123145410347008 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:32:05,010 basehttp 35367 123145427136512 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:32:05,509 basehttp 35367 123145443926016 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 11:32:08,310 basehttp 35367 123145410347008 "GET /api/attendance/today/ HTTP/1.1" 200 15473
+INFO 2025-08-13 11:32:08,683 basehttp 35367 123145427136512 "GET /api/attendance/ HTTP/1.1" 200 15523
+INFO 2025-08-13 11:39:45,615 basehttp 35367 123145443926016 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 11:39:53,049 basehttp 35367 123145410347008 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 11:39:55,086 basehttp 35367 123145427136512 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 11:39:56,807 basehttp 35367 123145443926016 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 12:30:30,084 autoreload 40272 4466755072 Watching for file changes with StatReloader
+INFO 2025-08-13 13:02:48,687 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 13:02:48,967 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 13:02:49,305 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 13:02:49,442 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 13:02:53,716 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 13:28:04,780 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 13:28:05,844 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 13:28:06,301 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 13:28:06,390 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:09:03,668 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:09:04,245 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:09:04,439 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:09:04,649 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:47:55,645 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:47:56,847 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:47:57,014 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:47:57,195 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:48:07,886 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:48:08,766 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:48:08,955 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:48:09,038 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:48:49,475 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:48:54,889 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:48:55,160 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:48:56,642 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 980
+INFO 2025-08-13 14:49:31,829 basehttp 40272 123145397612544 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-13 14:49:32,740 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:49:33,215 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:49:33,443 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:49:42,233 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:49:43,096 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:49:43,481 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:49:43,757 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:49:50,251 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:49:50,549 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:49:50,653 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:49:50,920 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:54:29,579 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:54:31,862 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:54:32,060 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:54:32,452 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:54:39,468 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:54:40,109 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:54:40,741 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:54:41,244 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:54:43,321 basehttp 40272 123145380823040 "GET /api/attendance/today/ HTTP/1.1" 200 15473
+INFO 2025-08-13 14:54:43,323 basehttp 40272 123145397612544 "GET /api/attendance/ HTTP/1.1" 200 15523
+INFO 2025-08-13 14:55:02,436 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:55:03,081 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:55:03,141 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-13 14:55:03,799 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 5469
+WARNING 2025-08-14 03:24:16,760 log 40272 123145380823040 Unauthorized: /api/user/
+WARNING 2025-08-14 03:24:16,811 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 401 183
+INFO 2025-08-14 03:24:29,361 basehttp 40272 123145397612544 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-14 03:24:29,643 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-14 03:24:29,895 basehttp 40272 123145431191552 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-14 03:24:29,933 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 5382
+WARNING 2025-08-14 03:25:24,660 log 40272 123145397612544 Bad Request: /api/biometric/register/
+WARNING 2025-08-14 03:25:24,664 basehttp 40272 123145397612544 "POST /api/biometric/register/ HTTP/1.1" 400 58
+INFO 2025-08-14 03:25:34,951 basehttp 40272 123145414402048 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-14 03:25:34,993 basehttp 40272 123145431191552 "GET /api/attendance/ HTTP/1.1" 200 15523
+INFO 2025-08-14 03:26:09,484 basehttp 40272 123145380823040 "POST /api/attendance/mark/ HTTP/1.1" 201 5197
+INFO 2025-08-14 03:26:10,145 basehttp 40272 123145397612544 "GET /api/attendance/today/ HTTP/1.1" 200 5132
+INFO 2025-08-14 03:26:59,604 basehttp 40272 123145380823040 "POST /api/attendance/mark/ HTTP/1.1" 201 5193
+INFO 2025-08-14 03:26:59,754 basehttp 40272 123145397612544 "GET /api/attendance/today/ HTTP/1.1" 200 10258
+INFO 2025-08-14 03:31:52,494 basehttp 40272 123145431191552 "GET /api/attendance/today/ HTTP/1.1" 200 10258
+INFO 2025-08-14 03:31:52,592 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-14 03:31:53,201 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-14 04:34:24,052 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-14 04:34:25,099 basehttp 40272 123145414402048 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-14 04:34:25,250 basehttp 40272 123145380823040 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-14 04:34:25,441 basehttp 40272 123145397612544 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-28 12:57:00,190 autoreload 15968 4540298752 Watching for file changes with StatReloader
+WARNING 2025-08-28 12:57:24,522 log 15968 123145346351104 Unauthorized: /api/user/
+WARNING 2025-08-28 12:57:24,525 basehttp 15968 123145346351104 "GET /api/user/ HTTP/1.1" 401 183
+WARNING 2025-08-28 12:57:32,068 log 15968 123145346351104 Unauthorized: /api/auth/login/
+WARNING 2025-08-28 12:57:32,071 basehttp 15968 123145346351104 "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2025-08-28 12:57:56,325 basehttp 15968 123145346351104 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-28 12:57:56,527 basehttp 15968 123145363140608 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 12:57:56,939 basehttp 15968 123145346351104 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 12:57:57,072 basehttp 15968 123145363140608 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 12:58:00,013 basehttp 15968 123145379930112 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-28 12:58:00,074 basehttp 15968 123145396719616 "GET /api/attendance/ HTTP/1.1" 200 25780
+INFO 2025-08-28 12:58:42,075 basehttp 15968 123145346351104 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 12:58:42,396 basehttp 15968 123145363140608 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 12:58:42,501 basehttp 15968 123145346351104 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 12:58:42,963 basehttp 15968 123145363140608 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 12:59:03,828 basehttp 15968 123145379930112 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-28 12:59:03,869 basehttp 15968 123145346351104 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 12:59:04,133 basehttp 15968 123145363140608 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 12:59:04,183 basehttp 15968 123145379930112 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 12:59:06,394 basehttp 15968 123145346351104 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-28 12:59:06,422 basehttp 15968 123145363140608 "GET /api/attendance/ HTTP/1.1" 200 25780
+INFO 2025-08-28 12:59:09,635 basehttp 15968 123145379930112 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-28 12:59:09,667 basehttp 15968 123145396719616 "GET /api/attendance/ HTTP/1.1" 200 25780
+WARNING 2025-08-28 13:00:06,886 log 15968 123145346351104 Unauthorized: /api/auth/login/
+WARNING 2025-08-28 13:00:06,891 basehttp 15968 123145346351104 "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2025-08-28 13:00:16,334 basehttp 15968 123145363140608 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-28 13:00:16,491 basehttp 15968 123145379930112 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 13:00:16,639 basehttp 15968 123145396719616 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 13:00:16,839 basehttp 15968 123145346351104 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 13:00:20,357 basehttp 15968 123145363140608 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-28 13:00:20,379 basehttp 15968 123145379930112 "GET /api/attendance/ HTTP/1.1" 200 25780
+INFO 2025-08-28 14:21:40,267 basehttp 15968 123145346351104 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 14:21:41,322 basehttp 15968 123145363140608 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 14:21:41,490 basehttp 15968 123145379930112 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 14:21:42,127 basehttp 15968 123145346351104 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-08-28 14:21:45,485 basehttp 15968 123145363140608 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-28 14:21:45,522 basehttp 15968 123145379930112 "GET /api/attendance/ HTTP/1.1" 200 25780
+INFO 2025-08-28 14:23:42,860 basehttp 15968 123145346351104 "POST /api/attendance/mark/ HTTP/1.1" 201 5193
+INFO 2025-08-28 14:23:43,026 basehttp 15968 123145363140608 "GET /api/attendance/today/ HTTP/1.1" 200 5128
+INFO 2025-08-28 14:24:56,140 basehttp 15968 123145346351104 "POST /api/attendance/mark/ HTTP/1.1" 201 5211
+INFO 2025-08-28 14:24:56,572 basehttp 15968 123145363140608 "GET /api/attendance/today/ HTTP/1.1" 200 10272
+INFO 2025-08-28 14:25:14,884 basehttp 15968 123145379930112 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-28 14:25:15,375 basehttp 15968 123145346351104 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-28 14:25:15,404 basehttp 15968 123145363140608 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-28 14:25:15,648 basehttp 15968 123145379930112 "GET /api/user/ HTTP/1.1" 200 5469
+INFO 2025-08-28 14:40:12,163 autoreload 21727 4723680768 Watching for file changes with StatReloader
+WARNING 2025-08-28 14:40:32,255 log 21727 123145557696512 Unauthorized: /api/user/
+WARNING 2025-08-28 14:40:32,262 basehttp 21727 123145557696512 "GET /api/user/ HTTP/1.1" 401 58
+WARNING 2025-08-28 14:42:58,329 log 21727 123145574486016 Unauthorized: /api/admin/dashboard/
+WARNING 2025-08-28 14:42:58,329 log 21727 123145557696512 Unauthorized: /api/attendance/
+WARNING 2025-08-28 14:42:58,332 basehttp 21727 123145574486016 "GET /api/admin/dashboard/? HTTP/1.1" 401 183
+WARNING 2025-08-28 14:42:58,333 basehttp 21727 123145557696512 "GET /api/attendance/? HTTP/1.1" 401 183
+WARNING 2025-08-28 14:43:09,802 log 21727 123145557696512 Unauthorized: /api/admin/users/
+WARNING 2025-08-28 14:43:09,803 basehttp 21727 123145557696512 "GET /api/admin/users/ HTTP/1.1" 401 58
+WARNING 2025-08-28 14:43:13,034 log 21727 123145574486016 Not Found: /api/admin/reports/
+WARNING 2025-08-28 14:43:13,034 basehttp 21727 123145574486016 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 404 10228
+WARNING 2025-08-28 14:43:14,341 log 21727 123145591275520 Not Found: /api/admin/settings/
+WARNING 2025-08-28 14:43:14,347 basehttp 21727 123145591275520 "GET /api/admin/settings/ HTTP/1.1" 404 10164
+WARNING 2025-08-28 14:43:16,036 log 21727 123145608065024 Not Found: /api/admin/audit-logs/
+WARNING 2025-08-28 14:43:16,041 log 21727 123145624854528 Not Found: /api/admin/audit-summary/
+WARNING 2025-08-28 14:43:16,054 basehttp 21727 123145608065024 "GET /api/admin/audit-logs/ HTTP/1.1" 404 10170
+WARNING 2025-08-28 14:43:16,055 basehttp 21727 123145624854528 "GET /api/admin/audit-summary/ HTTP/1.1" 404 10179
+WARNING 2025-08-28 14:43:39,920 log 21727 123145641644032 Not Found: /api/admin/settings/
+WARNING 2025-08-28 14:43:39,922 basehttp 21727 123145641644032 "GET /api/admin/settings/ HTTP/1.1" 404 10164
+WARNING 2025-08-28 14:43:48,260 log 21727 123145658433536 Not Found: /api/admin/reports/
+WARNING 2025-08-28 14:43:48,263 basehttp 21727 123145658433536 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 404 10228
+WARNING 2025-08-28 14:43:51,473 log 21727 123145557696512 Unauthorized: /api/admin/users/
+WARNING 2025-08-28 14:43:51,474 basehttp 21727 123145557696512 "GET /api/admin/users/ HTTP/1.1" 401 58
+WARNING 2025-08-28 14:43:53,135 log 21727 123145574486016 Unauthorized: /api/admin/dashboard/
+WARNING 2025-08-28 14:43:53,140 log 21727 123145591275520 Unauthorized: /api/attendance/
+WARNING 2025-08-28 14:43:53,142 basehttp 21727 123145574486016 "GET /api/admin/dashboard/? HTTP/1.1" 401 183
+WARNING 2025-08-28 14:43:53,146 basehttp 21727 123145591275520 "GET /api/attendance/? HTTP/1.1" 401 183
+WARNING 2025-08-28 14:48:48,257 log 21727 123145624854528 Unauthorized: /api/admin/dashboard/
+WARNING 2025-08-28 14:48:48,321 basehttp 21727 123145624854528 "GET /api/admin/dashboard/? HTTP/1.1" 401 183
+WARNING 2025-08-28 14:48:48,338 log 21727 123145608065024 Unauthorized: /api/attendance/
+WARNING 2025-08-28 14:48:48,343 basehttp 21727 123145608065024 "GET /api/attendance/? HTTP/1.1" 401 183
+WARNING 2025-08-28 14:56:05,211 log 21727 123145658433536 Unauthorized: /api/admin/dashboard/
+WARNING 2025-08-28 14:56:05,214 log 21727 123145641644032 Unauthorized: /api/attendance/
+WARNING 2025-08-28 14:56:05,227 basehttp 21727 123145658433536 "GET /api/admin/dashboard/? HTTP/1.1" 401 183
+WARNING 2025-08-28 14:56:05,227 basehttp 21727 123145641644032 "GET /api/attendance/? HTTP/1.1" 401 183
+WARNING 2025-08-28 14:56:19,209 log 21727 123145557696512 Unauthorized: /api/admin/users/
+WARNING 2025-08-28 14:56:19,209 basehttp 21727 123145557696512 "GET /api/admin/users/ HTTP/1.1" 401 58
+WARNING 2025-08-28 14:56:22,039 log 21727 123145574486016 Unauthorized: /api/admin/users/
+WARNING 2025-08-28 14:56:24,327 log 21727 123145591275520 Not Found: /api/admin/reports/
+WARNING 2025-08-28 14:56:27,429 basehttp 21727 123145574486016 "GET /api/admin/users/ HTTP/1.1" 401 58
+WARNING 2025-08-28 14:56:27,434 basehttp 21727 123145591275520 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 404 10228
+WARNING 2025-08-28 14:56:29,402 log 21727 123145608065024 Not Found: /api/admin/settings/
+WARNING 2025-08-28 14:56:29,407 basehttp 21727 123145608065024 "GET /api/admin/settings/ HTTP/1.1" 404 10164
+WARNING 2025-08-28 14:58:02,654 log 21727 123145624854528 Unauthorized: /api/attendance/
+WARNING 2025-08-28 14:58:02,669 log 21727 123145641644032 Unauthorized: /api/admin/dashboard/
+WARNING 2025-08-28 14:58:02,670 basehttp 21727 123145624854528 "GET /api/attendance/? HTTP/1.1" 401 183
+WARNING 2025-08-28 14:58:02,680 basehttp 21727 123145641644032 "GET /api/admin/dashboard/? HTTP/1.1" 401 183
+WARNING 2025-08-28 15:00:06,501 log 21727 123145658433536 Unauthorized: /api/attendance/
+WARNING 2025-08-28 15:00:06,511 log 21727 123145675223040 Unauthorized: /api/admin/dashboard/
+WARNING 2025-08-28 15:00:06,514 basehttp 21727 123145658433536 "GET /api/attendance/? HTTP/1.1" 401 183
+WARNING 2025-08-28 15:00:06,527 basehttp 21727 123145675223040 "GET /api/admin/dashboard/? HTTP/1.1" 401 183
+WARNING 2025-08-28 15:00:06,528 log 21727 123145692012544 Unauthorized: /api/user/
+WARNING 2025-08-28 15:00:06,655 basehttp 21727 123145692012544 "GET /api/user/ HTTP/1.1" 401 58
+WARNING 2025-08-28 15:00:06,782 log 21727 123145708802048 Unauthorized: /api/user/
+WARNING 2025-08-28 15:00:06,787 basehttp 21727 123145708802048 "GET /api/user/ HTTP/1.1" 401 58
+WARNING 2025-08-28 15:02:18,067 log 21727 123145557696512 Unauthorized: /api/auth/login/
+WARNING 2025-08-28 15:02:18,083 basehttp 21727 123145557696512 "POST /api/auth/login/ HTTP/1.1" 401 63
+WARNING 2025-08-28 15:02:24,513 log 21727 123145557696512 Unauthorized: /api/auth/login/
+WARNING 2025-08-28 15:02:24,521 basehttp 21727 123145557696512 "POST /api/auth/login/ HTTP/1.1" 401 63
+WARNING 2025-08-28 15:03:05,303 log 21727 123145574486016 Unauthorized: /api/auth/login/
+WARNING 2025-08-28 15:03:05,305 basehttp 21727 123145574486016 "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2025-08-28 15:10:48,310 autoreload 25711 4569253376 Watching for file changes with StatReloader
+INFO 2025-08-28 15:11:07,226 basehttp 25711 123145426694144 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-28 15:11:07,362 basehttp 25711 123145426694144 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:11:07,584 basehttp 25711 123145426694144 "GET /api/attendance/? HTTP/1.1" 200 39029
+INFO 2025-08-28 15:11:07,648 basehttp 25711 123145443483648 "GET /api/admin/dashboard/? HTTP/1.1" 200 38292
+INFO 2025-08-28 15:16:50,056 basehttp 25711 123145426694144 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:16:51,173 basehttp 25711 123145477062656 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:16:51,432 basehttp 25711 123145460273152 "GET /api/admin/dashboard/? HTTP/1.1" 200 38292
+INFO 2025-08-28 15:16:51,440 basehttp 25711 123145443483648 "GET /api/attendance/? HTTP/1.1" 200 39029
+INFO 2025-08-28 15:17:54,617 basehttp 25711 123145426694144 "GET /api/admin/users/ HTTP/1.1" 200 12480
+INFO 2025-08-28 15:17:57,939 basehttp 25711 123145426694144 "GET /api/admin/users/ HTTP/1.1" 200 12480
+WARNING 2025-08-28 15:18:00,900 log 25711 123145460273152 Not Found: /api/admin/reports/
+WARNING 2025-08-28 15:18:00,941 basehttp 25711 123145460273152 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 404 10228
+INFO 2025-08-28 15:18:01,015 basehttp 25711 123145443483648 "GET /api/admin/users/ HTTP/1.1" 200 12480
+WARNING 2025-08-28 15:18:03,322 log 25711 123145426694144 Not Found: /api/admin/settings/
+WARNING 2025-08-28 15:18:03,323 basehttp 25711 123145426694144 "GET /api/admin/settings/ HTTP/1.1" 404 10164
+WARNING 2025-08-28 15:18:05,342 log 25711 123145443483648 Not Found: /api/admin/audit-logs/
+WARNING 2025-08-28 15:18:05,368 basehttp 25711 123145443483648 "GET /api/admin/audit-logs/ HTTP/1.1" 404 10170
+WARNING 2025-08-28 15:18:05,408 log 25711 123145477062656 Not Found: /api/admin/audit-summary/
+WARNING 2025-08-28 15:18:05,410 basehttp 25711 123145477062656 "GET /api/admin/audit-summary/ HTTP/1.1" 404 10179
+INFO 2025-08-28 15:18:11,754 basehttp 25711 123145493852160 "GET /api/attendance/? HTTP/1.1" 200 39029
+INFO 2025-08-28 15:18:11,784 basehttp 25711 123145510641664 "GET /api/admin/dashboard/? HTTP/1.1" 200 38292
+INFO 2025-08-28 15:18:39,264 autoreload 25711 4569253376 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:18:45,912 autoreload 25874 4690339328 Watching for file changes with StatReloader
+INFO 2025-08-28 15:19:01,460 autoreload 25874 4690339328 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/urls.py changed, reloading.
+INFO 2025-08-28 15:19:03,188 autoreload 25885 4517574144 Watching for file changes with StatReloader
+INFO 2025-08-28 15:19:06,868 basehttp 25885 123145580183552 "GET /api/admin/users/ HTTP/1.1" 200 12480
+INFO 2025-08-28 15:19:08,337 basehttp 25885 123145580183552 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 669
+INFO 2025-08-28 15:19:19,057 basehttp 25885 123145596973056 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:19:26,729 basehttp 25885 123145613762560 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 669
+INFO 2025-08-28 15:19:26,812 basehttp 25885 123145630552064 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:19:45,620 autoreload 25885 4517574144 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:19:49,066 autoreload 25905 4559336960 Watching for file changes with StatReloader
+INFO 2025-08-28 15:20:07,048 basehttp 25905 123145363562496 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-28 15:20:07,319 basehttp 25905 123145380352000 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:20:07,780 basehttp 25905 123145363562496 "GET /api/attendance/? HTTP/1.1" 200 39029
+INFO 2025-08-28 15:20:07,966 basehttp 25905 123145380352000 "GET /api/admin/dashboard/? HTTP/1.1" 200 3151
+WARNING 2025-08-28 15:21:25,486 log 25905 123145363562496 Unauthorized: /api/admin/reports/
+WARNING 2025-08-28 15:21:25,490 basehttp 25905 123145363562496 "GET /api/admin/reports/ HTTP/1.1" 401 58
+INFO 2025-08-28 15:22:34,485 autoreload 25905 4559336960 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/urls.py changed, reloading.
+INFO 2025-08-28 15:22:47,964 autoreload 26536 4500817408 Watching for file changes with StatReloader
+INFO 2025-08-28 15:28:08,377 autoreload 26536 4500817408 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:28:13,797 autoreload 26640 4656231936 Watching for file changes with StatReloader
+INFO 2025-08-28 15:36:33,396 autoreload 26640 4656231936 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:36:39,267 autoreload 27417 4457358848 Watching for file changes with StatReloader
+INFO 2025-08-28 15:37:08,547 autoreload 27559 4572653056 Watching for file changes with StatReloader
+INFO 2025-08-28 15:38:03,662 autoreload 27559 4572653056 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:38:08,908 autoreload 27585 4469421568 Watching for file changes with StatReloader
+INFO 2025-08-28 15:39:00,094 autoreload 27585 4469421568 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:39:01,439 autoreload 27960 4561372672 Watching for file changes with StatReloader
+INFO 2025-08-28 15:40:04,976 autoreload 27960 4561372672 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:40:08,260 autoreload 27993 4487632384 Watching for file changes with StatReloader
+INFO 2025-08-28 15:40:26,640 autoreload 27993 4487632384 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:40:28,944 autoreload 28000 4533364224 Watching for file changes with StatReloader
+INFO 2025-08-28 15:41:20,982 autoreload 28000 4533364224 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:41:24,529 autoreload 28017 4574615040 Watching for file changes with StatReloader
+INFO 2025-08-28 15:41:49,197 autoreload 28017 4574615040 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/urls.py changed, reloading.
+INFO 2025-08-28 15:41:52,092 autoreload 28045 4706280960 Watching for file changes with StatReloader
+INFO 2025-08-28 15:43:21,296 basehttp 28045 123145583296512 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-08-28 15:43:21,523 basehttp 28045 123145583296512 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:43:21,945 basehttp 28045 123145583296512 "GET /api/attendance/? HTTP/1.1" 200 9890
+INFO 2025-08-28 15:43:22,048 basehttp 28045 123145600086016 "GET /api/admin/dashboard/? HTTP/1.1" 200 3404
+INFO 2025-08-28 15:43:31,021 basehttp 28045 123145583296512 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:43:33,654 basehttp 28045 123145600086016 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:43:36,601 basehttp 28045 123145583296512 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:43:39,651 basehttp 28045 123145600086016 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 835
+INFO 2025-08-28 15:43:47,061 basehttp 28045 123145583296512 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:43:47,430 basehttp 28045 123145600086016 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:43:47,547 basehttp 28045 123145616875520 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:43:50,869 basehttp 28045 123145583296512 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:43:52,564 basehttp 28045 123145583296512 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:43:53,904 basehttp 28045 123145600086016 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:43:55,515 basehttp 28045 123145583296512 "GET /api/admin/settings/ HTTP/1.1" 200 417
+INFO 2025-08-28 15:44:00,088 basehttp 28045 123145600086016 "GET /api/admin/audit-summary/ HTTP/1.1" 200 600
+INFO 2025-08-28 15:44:00,091 basehttp 28045 123145616875520 "GET /api/admin/audit-logs/ HTTP/1.1" 200 523
+INFO 2025-08-28 15:44:15,301 basehttp 28045 123145633665024 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:44:16,765 basehttp 28045 123145600086016 "GET /api/admin/audit-summary/ HTTP/1.1" 200 600
+INFO 2025-08-28 15:44:16,776 basehttp 28045 123145583296512 "GET /api/admin/audit-logs/ HTTP/1.1" 200 523
+INFO 2025-08-28 15:44:16,787 basehttp 28045 123145616875520 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:45:03,799 basehttp 28045 123145633665024 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:45:05,841 basehttp 28045 123145616875520 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:45:05,997 basehttp 28045 123145583296512 "GET /api/attendance/? HTTP/1.1" 200 9890
+INFO 2025-08-28 15:45:06,075 basehttp 28045 123145600086016 "GET /api/admin/dashboard/? HTTP/1.1" 200 3404
+INFO 2025-08-28 15:45:08,888 basehttp 28045 123145583296512 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 835
+INFO 2025-08-28 15:48:09,291 autoreload 28045 4706280960 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:48:16,985 autoreload 28412 4476442112 Watching for file changes with StatReloader
+INFO 2025-08-28 15:48:38,246 autoreload 28412 4476442112 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:48:41,010 autoreload 28439 4621481472 Watching for file changes with StatReloader
+INFO 2025-08-28 15:48:59,280 autoreload 28439 4621481472 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:49:04,384 autoreload 28451 4427662848 Watching for file changes with StatReloader
+INFO 2025-08-28 15:49:27,282 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:49:27,629 basehttp 28451 123145384222720 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:49:27,886 basehttp 28451 123145367433216 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:49:33,598 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:49:33,802 basehttp 28451 123145384222720 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:49:33,932 basehttp 28451 123145401012224 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:49:48,651 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:49:48,759 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:49:49,139 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:50:08,277 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:08,334 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:08,490 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:50:09,076 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:09,508 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:09,902 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:50:21,200 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:21,441 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:21,472 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:50:22,067 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:22,196 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:22,338 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:50:33,881 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:34,086 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:34,411 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:50:45,319 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:45,399 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:45,582 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:50:45,862 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:45,932 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:50:46,106 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:51:07,897 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:51:07,959 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:51:08,075 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:51:26,966 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:51:27,151 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:51:27,281 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:52:04,971 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:52:05,612 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:52:06,159 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:52:12,198 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:52:17,791 basehttp 28451 123145384222720 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:52:18,014 basehttp 28451 123145401012224 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:52:23,362 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:52:24,540 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:52:25,059 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:52:39,362 basehttp 28451 123145367433216 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:52:39,494 basehttp 28451 123145401012224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:52:39,600 basehttp 28451 123145384222720 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:52:52,746 basehttp 28451 123145367433216 "GET /api/admin/audit-logs/ HTTP/1.1" 200 986
+INFO 2025-08-28 15:52:52,746 basehttp 28451 123145384222720 "GET /api/admin/audit-summary/ HTTP/1.1" 200 606
+INFO 2025-08-28 15:53:16,832 autoreload 28451 4427662848 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:53:19,795 autoreload 28641 4669244928 Watching for file changes with StatReloader
+INFO 2025-08-28 15:54:00,654 basehttp 28641 123145350123520 "GET /api/admin/audit-logs/ HTTP/1.1" 200 986
+INFO 2025-08-28 15:54:00,724 basehttp 28641 123145366913024 "GET /api/admin/audit-summary/ HTTP/1.1" 200 606
+INFO 2025-08-28 15:54:24,015 basehttp 28641 123145350123520 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:54:24,457 basehttp 28641 123145383702528 "GET /api/admin/audit-summary/ HTTP/1.1" 200 606
+INFO 2025-08-28 15:54:24,458 basehttp 28641 123145366913024 "GET /api/admin/audit-logs/ HTTP/1.1" 200 986
+INFO 2025-08-28 15:54:24,473 basehttp 28641 123145400492032 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-08-28 15:54:26,393 basehttp 28641 123145350123520 "GET /api/admin/reports/?date_range=today&start_date=2025-08-28&end_date=2025-08-28 HTTP/1.1" 200 860
+INFO 2025-08-28 15:54:27,503 basehttp 28641 123145366913024 "GET /api/admin/settings/ HTTP/1.1" 200 417
+INFO 2025-08-28 15:54:29,656 basehttp 28641 123145383702528 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:54:32,562 basehttp 28641 123145350123520 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:54:35,553 basehttp 28641 123145350123520 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:54:38,547 basehttp 28641 123145366913024 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:54:41,569 basehttp 28641 123145350123520 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:54:44,575 basehttp 28641 123145366913024 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:54:47,127 basehttp 28641 123145350123520 "GET /api/attendance/? HTTP/1.1" 200 9890
+INFO 2025-08-28 15:54:47,248 basehttp 28641 123145366913024 "GET /api/admin/dashboard/? HTTP/1.1" 200 3404
+INFO 2025-08-28 15:55:30,952 autoreload 28891 4654597632 Watching for file changes with StatReloader
+WARNING 2025-08-28 15:55:43,268 log 28641 123145350123520 Unauthorized: /api/admin/reports/
+WARNING 2025-08-28 15:55:43,269 basehttp 28641 123145350123520 "GET /api/admin/reports/?date_range=today HTTP/1.1" 401 58
+INFO 2025-08-28 15:56:20,250 autoreload 28641 4669244928 /Users/admin/Documents/GitHub/attendance-gov/backend/attendance/views.py changed, reloading.
+INFO 2025-08-28 15:56:31,521 autoreload 29672 4785411584 Watching for file changes with StatReloader
+INFO 2025-08-28 15:56:47,260 basehttp 29672 123145478008832 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:56:49,163 basehttp 29672 123145478008832 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:56:52,169 basehttp 29672 123145494798336 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:56:55,121 basehttp 29672 123145478008832 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:56:58,117 basehttp 29672 123145478008832 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:57:01,160 basehttp 29672 123145494798336 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:57:04,115 basehttp 29672 123145478008832 "GET /api/admin/users/ HTTP/1.1" 200 18063
+INFO 2025-08-28 15:57:07,107 basehttp 29672 123145494798336 "GET /api/admin/users/ HTTP/1.1" 200 18063
+WARNING 2025-08-28 15:57:32,994 log 29672 123145478008832 Bad Request: /api/auth/register/
+WARNING 2025-08-28 15:57:32,996 basehttp 29672 123145478008832 "POST /api/auth/register/ HTTP/1.1" 400 34
+INFO 2025-08-28 15:57:39,336 basehttp 29672 123145494798336 "POST /api/auth/register/ HTTP/1.1" 201 952
+INFO 2025-08-28 15:57:44,567 basehttp 29672 123145511587840 "POST /api/auth/login/ HTTP/1.1" 200 486
+INFO 2025-08-28 15:57:44,615 basehttp 29672 123145478008832 "GET /api/user/ HTTP/1.1" 200 982
+INFO 2025-08-28 15:57:44,724 basehttp 29672 123145494798336 "GET /api/user/ HTTP/1.1" 200 982
+INFO 2025-08-28 15:57:44,784 basehttp 29672 123145511587840 "GET /api/user/ HTTP/1.1" 200 982
+INFO 2025-08-28 15:58:14,642 basehttp 29672 123145478008832 "POST /api/biometric/register/ HTTP/1.1" 201 5450
+INFO 2025-08-28 15:58:14,723 basehttp 29672 123145494798336 "GET /api/user/ HTTP/1.1" 200 5395
+INFO 2025-08-28 15:58:14,786 basehttp 29672 123145511587840 "GET /api/user/ HTTP/1.1" 200 5395
+INFO 2025-08-28 15:58:14,833 basehttp 29672 123145478008832 "GET /api/user/ HTTP/1.1" 200 5395
+INFO 2025-08-28 15:58:14,885 basehttp 29672 123145494798336 "GET /api/user/ HTTP/1.1" 200 5395
+INFO 2025-08-28 15:58:16,896 basehttp 29672 123145478008832 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-08-28 15:58:16,929 basehttp 29672 123145494798336 "GET /api/attendance/ HTTP/1.1" 200 52
+INFO 2025-08-28 15:58:44,016 basehttp 29672 123145511587840 "POST /api/attendance/mark/ HTTP/1.1" 201 5209
+INFO 2025-08-28 15:58:44,084 basehttp 29672 123145528377344 "GET /api/attendance/today/ HTTP/1.1" 200 5144
+INFO 2025-08-28 15:59:20,448 basehttp 29672 123145478008832 "POST /api/attendance/mark/ HTTP/1.1" 201 5212
+INFO 2025-08-28 15:59:20,660 basehttp 29672 123145494798336 "GET /api/attendance/today/ HTTP/1.1" 200 10289
+INFO 2025-08-28 15:59:30,950 basehttp 29672 123145511587840 "GET /api/user/ HTTP/1.1" 200 5482
+INFO 2025-08-28 15:59:31,220 basehttp 29672 123145478008832 "GET /api/user/ HTTP/1.1" 200 5482
+INFO 2025-08-28 15:59:31,284 basehttp 29672 123145494798336 "GET /api/user/ HTTP/1.1" 200 5482
+INFO 2025-08-28 15:59:31,319 basehttp 29672 123145511587840 "GET /api/user/ HTTP/1.1" 200 5482
+INFO 2025-08-28 15:59:32,948 basehttp 29672 123145494798336 "GET /api/attendance/ HTTP/1.1" 200 10339
+INFO 2025-08-28 15:59:32,950 basehttp 29672 123145478008832 "GET /api/attendance/today/ HTTP/1.1" 200 10289
+INFO 2025-09-03 17:12:00,596 autoreload 55185 4427134464 Watching for file changes with StatReloader
+INFO 2025-09-03 17:13:42,145 basehttp 55185 123145462046720 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-09-03 17:13:42,252 basehttp 55185 123145462046720 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-09-03 17:13:42,639 basehttp 55185 123145462046720 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-09-03 17:13:42,896 basehttp 55185 123145478836224 "GET /api/user/ HTTP/1.1" 200 5382
+INFO 2025-09-03 17:14:23,156 basehttp 55185 123145462046720 "GET /api/attendance/today/ HTTP/1.1" 200 2
+INFO 2025-09-03 17:14:23,278 basehttp 55185 123145478836224 "GET /api/attendance/ HTTP/1.1" 200 36051
+INFO 2025-09-03 17:15:02,726 basehttp 55185 123145495625728 "POST /api/attendance/mark/ HTTP/1.1" 201 5193
+INFO 2025-09-03 17:15:02,993 basehttp 55185 123145462046720 "GET /api/attendance/today/ HTTP/1.1" 200 5128
+INFO 2025-09-03 17:15:43,177 basehttp 55185 123145462046720 "GET /api/user/ HTTP/1.1" 200 5444
+INFO 2025-09-03 17:15:43,233 basehttp 55185 123145478836224 "GET /api/user/ HTTP/1.1" 200 5444
+INFO 2025-09-03 17:15:43,291 basehttp 55185 123145495625728 "GET /api/user/ HTTP/1.1" 200 5444
+INFO 2025-09-03 17:15:43,344 basehttp 55185 123145462046720 "GET /api/user/ HTTP/1.1" 200 5444
+INFO 2025-09-03 17:16:48,162 basehttp 55185 123145478836224 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-09-03 17:16:48,212 basehttp 55185 123145495625728 "GET /api/user/ HTTP/1.1" 200 5444
+INFO 2025-09-03 17:16:48,286 basehttp 55185 123145462046720 "GET /api/user/ HTTP/1.1" 200 5444
+INFO 2025-09-03 17:16:48,368 basehttp 55185 123145478836224 "GET /api/user/ HTTP/1.1" 200 5444
+INFO 2025-09-03 17:21:26,478 basehttp 55185 123145495625728 "GET /api/attendance/today/ HTTP/1.1" 200 5128
+INFO 2025-09-03 17:21:26,649 basehttp 55185 123145512415232 "GET /api/attendance/ HTTP/1.1" 200 41178
+INFO 2025-09-03 17:23:37,961 basehttp 55185 123145462046720 "POST /api/auth/login/ HTTP/1.1" 200 483
+INFO 2025-09-03 17:23:38,017 basehttp 55185 123145478836224 "GET /api/user/ HTTP/1.1" 200 1119
+INFO 2025-09-03 17:23:38,175 basehttp 55185 123145495625728 "GET /api/attendance/? HTTP/1.1" 200 23844
+INFO 2025-09-03 17:23:38,237 basehttp 55185 123145512415232 "GET /api/admin/dashboard/? HTTP/1.1" 200 3416
+INFO 2025-09-03 17:24:49,751 basehttp 55185 123145462046720 "GET /api/admin/users/ HTTP/1.1" 200 23434
+INFO 2025-09-03 17:24:52,618 basehttp 55185 123145462046720 "GET /api/admin/users/ HTTP/1.1" 200 23434
+INFO 2025-09-03 17:24:55,623 basehttp 55185 123145478836224 "GET /api/admin/users/ HTTP/1.1" 200 23434
+INFO 2025-09-03 17:24:58,618 basehttp 55185 123145462046720 "GET /api/admin/users/ HTTP/1.1" 200 23434
+INFO 2025-09-03 17:25:01,406 basehttp 55185 123145478836224 "GET /api/admin/reports/?date_range=today&start_date=2025-09-03&end_date=2025-09-03 HTTP/1.1" 200 857
+INFO 2025-09-03 17:25:11,322 basehttp 55185 123145462046720 "GET /api/admin/settings/ HTTP/1.1" 200 417
+INFO 2025-09-03 17:25:22,893 basehttp 55185 123145478836224 "GET /api/admin/audit-logs/ HTTP/1.1" 200 986
+INFO 2025-09-03 17:25:22,894 basehttp 55185 123145495625728 "GET /api/admin/audit-summary/ HTTP/1.1" 200 606
