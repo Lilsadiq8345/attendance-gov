@@ -5,7 +5,9 @@ djangorestframework-simplejwt==5.3.1
 django-cors-headers==4.3.1
 
 # Database
-psycopg2-binary==2.9.9
+# Install Postgres driver only on Python < 3.13 to avoid local build issues.
+# Render uses Python 3.12 (runtime.txt), so it will still install there.
+psycopg2-binary==2.9.9; python_version < '3.13'
 django-environ==0.11.2
 
 # Security & Authentication

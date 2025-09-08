@@ -95,6 +95,18 @@ DATABASES = {
     }
 }
 
+# Ensure SQLite database directory exists (fixes 'unable to open database file' on Render)
+try:
+    if DATABASES["default"]["ENGINE"].endswith("sqlite3"):
+        _db_name = DATABASES["default"]["NAME"]
+        from pathlib import Path as _P
+
+        _db_path = _P(str(_db_name))
+        os.makedirs(_db_path.parent, exist_ok=True)
+except Exception:
+    # Do not block settings import on any unexpected error
+    pass
+
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
 
@@ -131,6 +143,12 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 # Media files
 MEDIA_URL = env("MEDIA_URL", default="/media/")
 MEDIA_ROOT = env("MEDIA_ROOT", default=BASE_DIR / "media")
+
+# Ensure media directory exists (especially when MEDIA_ROOT is on a Render disk at /data)
+try:
+    os.makedirs(MEDIA_ROOT, exist_ok=True)
+except Exception:
+    pass
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
