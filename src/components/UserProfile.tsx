@@ -8,6 +8,10 @@ import { Label } from '@/components/ui/label';
 import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/hooks/use-toast';
 import axios from 'axios';
+import { apiConfig } from '../config/api';
+
+// Configure axios to use the correct base URL
+axios.defaults.baseURL = apiConfig.baseURL;
 
 interface Profile {
   full_name: string;

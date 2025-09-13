@@ -9,6 +9,10 @@ import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/hooks/use-toast';
 import RealTimeBiometricScanner from './RealTimeBiometricScanner';
 import axios from 'axios';
+import { apiConfig } from '../config/api';
+
+// Configure axios to use the correct base URL
+axios.defaults.baseURL = apiConfig.baseURL;
 
 interface AttendanceScannerProps {
   onScanComplete: (success: boolean) => void;
