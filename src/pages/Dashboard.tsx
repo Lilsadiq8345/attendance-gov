@@ -12,7 +12,7 @@ import UserProfile from '@/components/UserProfile';
 import BiometricStatusCard from '@/components/BiometricStatusCard';
 import Header from '@/components/Header';
 import { useToast } from '@/hooks/use-toast';
-import axios from 'axios';
+import { apiCall } from '../config/api';
 
 interface Profile {
   role: 'user' | 'admin';
@@ -35,7 +35,7 @@ const Dashboard = () => {
     if (!token) return;
     setLoading(true);
     try {
-      const res = await axios.get('/api/user/', {
+      const res = await apiCall('/api/user/', {
         headers: { Authorization: `Bearer ${token}` }
       });
       setUserProfile(res.data);

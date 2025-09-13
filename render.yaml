@@ -4,15 +4,12 @@ services:
     env: python
     rootDir: backend
     buildCommand: |
+      pip install --upgrade pip setuptools wheel
       pip install -r requirements.txt
       python manage.py collectstatic --noinput
       python manage.py migrate
     startCommand: gunicorn gov_biometric.wsgi:application --bind 0.0.0.0:$PORT --workers 3
     autoDeploy: true
-    disk:
-      name: media-and-db
-      mountPath: /data
-      sizeGB: 2
     envVars:
       - key: DEBUG
         value: "False"
@@ -21,18 +18,25 @@ services:
       - key: ALLOWED_HOSTS
         value: attendance-gov-backend.onrender.com
       - key: DB_ENGINE
-        value: django.db.backends.sqlite3
+        value: django.db.backends.postgresql
       - key: DB_NAME
-        value: /data/db.sqlite3
+        value: attendance_29g1
+      - key: DB_USER
+        value: attendance_29g1_user
+      - key: DB_PASSWORD
+        value: 76XChVT5BcG8G5ikX2H6BgS14InEtN4U
+      - key: DB_HOST
+        value: dpg-d32js8jipnbc73d8k890-a
+      - key: DB_PORT
+        value: "5432"
       - key: MEDIA_ROOT
-        value: /data/media
+        value: media/
       - key: MEDIA_URL
         value: /media/
       - key: JWT_SECRET_KEY
         generateValue: true
-      # Set CORS/CSRF to your frontend domain(s) once deployed
       - key: CORS_ALLOWED_ORIGINS
-        value: http://localhost:8080
+        value: https://attendance-gov.onrender.com
       - key: CSRF_TRUSTED_ORIGINS
-        value: http://localhost:8080
+        value: https://attendance-gov.onrender.com
 
