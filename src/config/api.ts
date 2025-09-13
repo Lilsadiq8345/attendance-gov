@@ -1,5 +1,5 @@
 // API Configuration
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://attendance-gov-backend.onrender.com';
 
 export const apiConfig = {
     baseURL: API_BASE_URL,

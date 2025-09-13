@@ -36,7 +36,7 @@ services:
       - key: JWT_SECRET_KEY
         generateValue: true
       - key: CORS_ALLOWED_ORIGINS
-        value: https://attendance-gov.onrender.com
+        value: https://attendance-gov.onrender.com,https://attendance-gov-backend.onrender.com
       - key: CSRF_TRUSTED_ORIGINS
-        value: https://attendance-gov.onrender.com
+        value: https://attendance-gov.onrender.com,https://attendance-gov-backend.onrender.com
 
