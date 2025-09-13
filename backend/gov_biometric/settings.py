@@ -87,7 +87,7 @@ WSGI_APPLICATION = "gov_biometric.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": env("DB_ENGINE", default="django.db.backends.sqlite3"),
-        "NAME": env("DB_NAME", default=BASE_DIR / "db.sqlite3"),
+        "NAME": str(env("DB_NAME", default=BASE_DIR / "db.sqlite3")),
         "USER": env("DB_USER", default=""),
         "PASSWORD": env("DB_PASSWORD", default=""),
         "HOST": env("DB_HOST", default=""),
@@ -101,7 +101,7 @@ try:
         _db_name = DATABASES["default"]["NAME"]
         from pathlib import Path as _P
 
-        _db_path = _P(str(_db_name))
+        _db_path = _P(_db_name)
         os.makedirs(_db_path.parent, exist_ok=True)
 except Exception:
     # Do not block settings import on any unexpected error
