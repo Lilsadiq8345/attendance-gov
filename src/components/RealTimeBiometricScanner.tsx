@@ -4,9 +4,11 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { useToast } from '@/hooks/use-toast';
-import { FaceMesh, FACEMESH_TESSELATION } from '@mediapipe/face_mesh';
-import { drawConnectors } from '@mediapipe/drawing_utils';
-import { Camera } from '@mediapipe/camera_utils';
+// Dynamic imports for MediaPipe to handle loading issues
+let FaceMesh: any = null;
+let FACEMESH_TESSELATION: any = null;
+let drawConnectors: any = null;
+let Camera: any = null;
 
 interface BiometricData {
     faceFeatures: number[];
@@ -64,6 +66,29 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
     const earLeftFeatureRef = useRef<number[] | null>(null);
     const earRightFeatureRef = useRef<number[] | null>(null);
     const stepSuccessRef = useRef(stepSuccess);
+
+    // Load MediaPipe libraries dynamically
+    const loadMediaPipeLibraries = useCallback(async () => {
+        try {
+            if (!FaceMesh) {
+                const faceMeshModule = await import('@mediapipe/face_mesh');
+                FaceMesh = faceMeshModule.FaceMesh;
+                FACEMESH_TESSELATION = faceMeshModule.FACEMESH_TESSELATION;
+            }
+            if (!drawConnectors) {
+                const drawingUtilsModule = await import('@mediapipe/drawing_utils');
+                drawConnectors = drawingUtilsModule.drawConnectors;
+            }
+            if (!Camera) {
+                const cameraUtilsModule = await import('@mediapipe/camera_utils');
+                Camera = cameraUtilsModule.Camera;
+            }
+            return true;
+        } catch (error) {
+            console.error('Failed to load MediaPipe libraries:', error);
+            return false;
+        }
+    }, []);
 
     useEffect(() => {
         stepSuccessRef.current = stepSuccess;
@@ -329,11 +354,26 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
     }, [processScanStep]);
     const initializeFaceMesh = useCallback(async () => {
         try {
+            setAssetLoadingProgress(50);
+
+            // Load MediaPipe libraries first
+            const librariesLoaded = await loadMediaPipeLibraries();
+            if (!librariesLoaded) {
+                throw new Error('Failed to load MediaPipe libraries. Please check your internet connection.');
+            }
+
             setAssetLoadingProgress(70);
+
+            // Check if FaceMesh is available
+            if (!FaceMesh) {
+                throw new Error('FaceMesh is not available. Please check your internet connection and refresh the page.');
+            }
+
             const faceMesh = new FaceMesh({
                 // Use CDN so you don't need to host WASM/assets locally
                 locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh@0.4.1633559619/${file}`
             });
+
             faceMesh.setOptions({
                 selfMode: false,
                 selfieMode: true,
@@ -347,6 +387,7 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
             faceMesh.onResults((results: any) => {
                 handleFaceMeshResults(results);
             });
+
             faceMeshRef.current = faceMesh;
             setAssetLoadingProgress(90);
             setCurrentStep('detecting');
@@ -359,7 +400,7 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
             setCurrentStep('error');
             throw error;
         }
-    }, [handleFaceMeshResults]);
+    }, [handleFaceMeshResults, loadMediaPipeLibraries]);
 
 
 
@@ -457,6 +498,10 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
 
         if (videoRef.current && faceMeshRef.current) {
             // Use MediaPipe Camera helper to feed frames to FaceMesh
+            if (!Camera) {
+                throw new Error('Camera class not available. Please refresh the page.');
+            }
+
             const cam = new Camera(videoRef.current, {
                 onFrame: async () => {
                     if (faceMeshRef.current && videoRef.current) {
