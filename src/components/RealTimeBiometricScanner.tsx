@@ -5,10 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { useToast } from '@/hooks/use-toast';
 // Dynamic imports for MediaPipe to handle loading issues
-let FaceMesh: any = null;
-let FACEMESH_TESSELATION: any = null;
-let drawConnectors: any = null;
-let Camera: any = null;
+// Use refs to store loaded modules to avoid global variable issues
 
 interface BiometricData {
     faceFeatures: number[];
@@ -39,8 +36,13 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const streamRef = useRef<MediaStream | null>(null);
     const animationRef = useRef<number | null>(null);
-    const faceMeshRef = useRef<FaceMesh | null>(null);
-    const cameraRef = useRef<Camera | null>(null);
+    const faceMeshRef = useRef<any>(null);
+    const cameraRef = useRef<any>(null);
+
+    // Refs to store loaded MediaPipe modules
+    const faceMeshModuleRef = useRef<any>(null);
+    const drawingUtilsModuleRef = useRef<any>(null);
+    const cameraUtilsModuleRef = useRef<any>(null);
 
     const [isScanning, setIsScanning] = useState(false);
     const [scanProgress, setScanProgress] = useState(0);
@@ -72,26 +74,36 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
         try {
             console.log('[BiometricScanner] Loading MediaPipe libraries...');
 
-            if (!FaceMesh) {
+            if (!faceMeshModuleRef.current) {
                 console.log('[BiometricScanner] Loading FaceMesh...');
                 const faceMeshModule = await import('@mediapipe/face_mesh');
-                FaceMesh = faceMeshModule.FaceMesh;
-                FACEMESH_TESSELATION = faceMeshModule.FACEMESH_TESSELATION;
-                console.log('[BiometricScanner] FaceMesh loaded successfully');
+                faceMeshModuleRef.current = faceMeshModule;
+                console.log('[BiometricScanner] FaceMesh loaded successfully:', typeof faceMeshModule.FaceMesh);
             }
 
-            if (!drawConnectors) {
+            if (!drawingUtilsModuleRef.current) {
                 console.log('[BiometricScanner] Loading drawing utils...');
                 const drawingUtilsModule = await import('@mediapipe/drawing_utils');
-                drawConnectors = drawingUtilsModule.drawConnectors;
+                drawingUtilsModuleRef.current = drawingUtilsModule;
                 console.log('[BiometricScanner] Drawing utils loaded successfully');
             }
 
-            if (!Camera) {
+            if (!cameraUtilsModuleRef.current) {
                 console.log('[BiometricScanner] Loading camera utils...');
                 const cameraUtilsModule = await import('@mediapipe/camera_utils');
-                Camera = cameraUtilsModule.Camera;
+                cameraUtilsModuleRef.current = cameraUtilsModule;
                 console.log('[BiometricScanner] Camera utils loaded successfully');
+            }
+
+            // Verify all libraries are loaded
+            const FaceMesh = faceMeshModuleRef.current?.FaceMesh;
+            const Camera = cameraUtilsModuleRef.current?.Camera;
+
+            if (!FaceMesh || typeof FaceMesh !== 'function') {
+                throw new Error('FaceMesh not properly loaded');
+            }
+            if (!Camera || typeof Camera !== 'function') {
+                throw new Error('Camera not properly loaded');
             }
 
             console.log('[BiometricScanner] All MediaPipe libraries loaded successfully');
@@ -353,7 +365,11 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
             detected = validCount > 260; // speed: accept earlier when many points exist
 
             // Omit drawing for speed. Uncomment to debug overlays.
-            // drawConnectors(ctx as any, landmarks, FACEMESH_TESSELATION as any, { color: detected ? '#00ff00' : '#ff0000', lineWidth: 0.5 });
+            // const drawConnectors = drawingUtilsModuleRef.current?.drawConnectors;
+            // const FACEMESH_TESSELATION = faceMeshModuleRef.current?.FACEMESH_TESSELATION;
+            // if (drawConnectors && FACEMESH_TESSELATION) {
+            //     drawConnectors(ctx as any, landmarks, FACEMESH_TESSELATION as any, { color: detected ? '#00ff00' : '#ff0000', lineWidth: 0.5 });
+            // }
 
             // Process scan steps and liveness
             processScanStep(landmarks, confidence, detected);
@@ -383,8 +399,13 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
 
             setAssetLoadingProgress(70);
 
-            // Check if FaceMesh is available
-            if (!FaceMesh) {
+            // Get FaceMesh from loaded module
+            const FaceMesh = faceMeshModuleRef.current?.FaceMesh;
+            const FACEMESH_TESSELATION = faceMeshModuleRef.current?.FACEMESH_TESSELATION;
+
+            // Check if FaceMesh is available and is a constructor function
+            if (!FaceMesh || typeof FaceMesh !== 'function') {
+                console.error('[BiometricScanner] FaceMesh check failed:', { FaceMesh, type: typeof FaceMesh });
                 throw new Error('FaceMesh is not available. Please check your internet connection and refresh the page.');
             }
 
@@ -518,8 +539,11 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
         setStepConfidence({ forward: 0, blink: 0, left: 0, right: 0 });
 
         if (videoRef.current && faceMeshRef.current) {
+            // Get Camera from loaded module
+            const Camera = cameraUtilsModuleRef.current?.Camera;
+
             // Use MediaPipe Camera helper to feed frames to FaceMesh
-            if (!Camera) {
+            if (!Camera || typeof Camera !== 'function') {
                 throw new Error('Camera class not available. Please refresh the page.');
             }
 
