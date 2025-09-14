@@ -70,22 +70,34 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
     // Load MediaPipe libraries dynamically
     const loadMediaPipeLibraries = useCallback(async () => {
         try {
+            console.log('[BiometricScanner] Loading MediaPipe libraries...');
+
             if (!FaceMesh) {
+                console.log('[BiometricScanner] Loading FaceMesh...');
                 const faceMeshModule = await import('@mediapipe/face_mesh');
                 FaceMesh = faceMeshModule.FaceMesh;
                 FACEMESH_TESSELATION = faceMeshModule.FACEMESH_TESSELATION;
+                console.log('[BiometricScanner] FaceMesh loaded successfully');
             }
+
             if (!drawConnectors) {
+                console.log('[BiometricScanner] Loading drawing utils...');
                 const drawingUtilsModule = await import('@mediapipe/drawing_utils');
                 drawConnectors = drawingUtilsModule.drawConnectors;
+                console.log('[BiometricScanner] Drawing utils loaded successfully');
             }
+
             if (!Camera) {
+                console.log('[BiometricScanner] Loading camera utils...');
                 const cameraUtilsModule = await import('@mediapipe/camera_utils');
                 Camera = cameraUtilsModule.Camera;
+                console.log('[BiometricScanner] Camera utils loaded successfully');
             }
+
+            console.log('[BiometricScanner] All MediaPipe libraries loaded successfully');
             return true;
         } catch (error) {
-            console.error('Failed to load MediaPipe libraries:', error);
+            console.error('[BiometricScanner] Failed to load MediaPipe libraries:', error);
             return false;
         }
     }, []);
@@ -353,7 +365,14 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
         setFaceDetected(detected);
     }, [processScanStep]);
     const initializeFaceMesh = useCallback(async () => {
+        // Prevent multiple initializations
+        if (faceMeshRef.current) {
+            console.log('[BiometricScanner] FaceMesh already initialized, skipping...');
+            return;
+        }
+
         try {
+            console.log('[BiometricScanner] Initializing FaceMesh...');
             setAssetLoadingProgress(50);
 
             // Load MediaPipe libraries first
@@ -369,6 +388,7 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
                 throw new Error('FaceMesh is not available. Please check your internet connection and refresh the page.');
             }
 
+            console.log('[BiometricScanner] Creating FaceMesh instance...');
             const faceMesh = new FaceMesh({
                 // Use CDN so you don't need to host WASM/assets locally
                 locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh@0.4.1633559619/${file}`
@@ -393,6 +413,7 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
             setCurrentStep('detecting');
             setErrorMessage(null);
             setErrorSuggestion(null);
+            console.log('[BiometricScanner] FaceMesh initialized successfully');
         } catch (error: any) {
             console.error('[BiometricScanner] Failed to initialize FaceMesh:', error);
             setErrorMessage('Failed to initialize FaceMesh: ' + (error.message || 'Unknown error'));
@@ -584,11 +605,11 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
         };
     };
 
-    // Start scanning process
+    // Start scanning process (simplified - camera is already initialized)
     const startScanning = useCallback(async () => {
         try {
-            setCurrentStep('initializing');
-            setIsScanning(true);
+            console.log('[BiometricScanner] Starting scan process...');
+            setCurrentStep('detecting');
             setAttempts(prev => prev + 1);
 
             // Check network connectivity
@@ -596,34 +617,19 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
                 throw new Error('No internet connection. Please check your network and try again.');
             }
 
-            // Initialize (simplified for testing)
-            await initializeFaceMesh();
-
-            // Start camera
-            const stream = await navigator.mediaDevices.getUserMedia({
-                video: {
-                    width: { ideal: 640, min: 320 },
-                    height: { ideal: 480, min: 240 },
-                    facingMode: 'user',
-                    frameRate: { ideal: 30, min: 15 }
-                },
-                audio: false
-            });
-            if (!stream) {
-                throw new Error('Failed to start camera');
+            // Camera is already initialized, just start the biometric scan
+            if (videoReady && faceMeshRef.current) {
+                await startBiometricScan();
+            } else {
+                throw new Error('Camera or FaceMesh not ready. Please wait and try again.');
             }
-
-            setCurrentStep('detecting');
-            console.log('[BiometricScanner] Camera preview mode active - showing camera feed');
-
-            // For testing legacy path: no-op (we now rely on real-time pipeline via startBiometricScan)
 
         } catch (error) {
             console.error('Error starting scan:', error);
             setCurrentStep('error');
             onError(error instanceof Error ? error.message : 'Failed to start scanning');
         }
-    }, [initializeFaceMesh, onError, isOnline, scanType, onScanComplete]);
+    }, [onError, isOnline, videoReady, startBiometricScan]);
 
     // Stop scanning
     const stopScanning = useCallback(() => {
@@ -659,10 +665,27 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
         };
     }, []);
 
-    // Initialize biometric detection
+    // Initialize biometric detection only once when video is ready
     useEffect(() => {
-        if (videoReady) {
-            initializeFaceMesh();
+        if (videoReady && !faceMeshRef.current) {
+            // Add timeout to prevent infinite loading
+            const timeout = setTimeout(() => {
+                if (!faceMeshRef.current) {
+                    console.warn('[BiometricScanner] FaceMesh initialization timeout');
+                    setErrorMessage('Biometric scanner initialization timeout');
+                    setErrorSuggestion('Please refresh the page and try again');
+                    setCurrentStep('error');
+                }
+            }, 10000); // 10 second timeout
+
+            initializeFaceMesh().catch(error => {
+                console.error('Failed to initialize FaceMesh:', error);
+                setErrorMessage('Failed to initialize biometric scanner');
+                setErrorSuggestion('Please refresh the page and try again');
+                setCurrentStep('error');
+            }).finally(() => {
+                clearTimeout(timeout);
+            });
         }
     }, [videoReady, initializeFaceMesh]);
 
