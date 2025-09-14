@@ -146,8 +146,44 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
                 console.log('[BiometricScanner] Loading camera utils...');
                 const cameraUtilsModule = await import('@mediapipe/camera_utils');
                 console.log('[BiometricScanner] Camera utils module keys:', Object.keys(cameraUtilsModule));
-
-                const Camera = cameraUtilsModule.Camera || cameraUtilsModule.default?.Camera || cameraUtilsModule.default;
+                console.log('[BiometricScanner] Camera available:', !!cameraUtilsModule.Camera);
+                console.log('[BiometricScanner] Camera default:', !!cameraUtilsModule.default);
+                
+                // Try to get Camera from different possible locations
+                let Camera = cameraUtilsModule.Camera || cameraUtilsModule.default?.Camera || cameraUtilsModule.default;
+                
+                // If Camera is an object, try to get the constructor
+                if (Camera && typeof Camera === 'object' && Camera.Camera) {
+                    Camera = Camera.Camera;
+                }
+                
+                // If still not a function, try CDN fallback
+                if (!Camera || typeof Camera !== 'function') {
+                    console.log('[BiometricScanner] Camera not found in module, trying CDN approach...');
+                    try {
+                        // Load from CDN as fallback
+                        const script = document.createElement('script');
+                        script.src = 'https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.3.1627447222/camera_utils.js';
+                        script.type = 'module';
+                        document.head.appendChild(script);
+                        
+                        // Wait for script to load
+                        await new Promise((resolve, reject) => {
+                            script.onload = resolve;
+                            script.onerror = reject;
+                            setTimeout(() => reject(new Error('CDN load timeout')), 10000);
+                        });
+                        
+                        // Try to access from global scope
+                        Camera = (window as any).Camera;
+                        console.log('[BiometricScanner] CDN Camera:', typeof Camera);
+                    } catch (cdnError) {
+                        console.error('[BiometricScanner] CDN fallback failed:', cdnError);
+                    }
+                }
+                
+                console.log('[BiometricScanner] Resolved Camera:', typeof Camera);
+                
                 cameraUtilsModuleRef.current = {
                     ...cameraUtilsModule,
                     Camera: Camera
@@ -172,13 +208,19 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
                 });
                 throw new Error('FaceMesh not properly loaded');
             }
-            if (!Camera || typeof Camera !== 'function') {
-                console.error('[BiometricScanner] Camera check failed:', {
-                    Camera,
+            if (!Camera || (typeof Camera !== 'function' && typeof Camera !== 'object')) {
+                console.error('[BiometricScanner] Camera check failed:', { 
+                    Camera, 
                     type: typeof Camera,
-                    module: cameraUtilsModuleRef.current
+                    module: cameraUtilsModuleRef.current 
                 });
                 throw new Error('Camera not properly loaded');
+            }
+            
+            // If Camera is an object, it might be a class that needs to be instantiated differently
+            if (typeof Camera === 'object' && Camera.Camera && typeof Camera.Camera === 'function') {
+                console.log('[BiometricScanner] Using nested Camera constructor');
+                Camera = Camera.Camera;
             }
 
             console.log('[BiometricScanner] All MediaPipe libraries loaded successfully');
@@ -623,13 +665,20 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
 
         if (videoRef.current && faceMeshRef.current) {
             // Get Camera from loaded module
-            const Camera = cameraUtilsModuleRef.current?.Camera;
-
+            let Camera = cameraUtilsModuleRef.current?.Camera;
+            
+            // Handle object case - get the actual constructor
+            if (Camera && typeof Camera === 'object' && Camera.Camera && typeof Camera.Camera === 'function') {
+                Camera = Camera.Camera;
+            }
+            
             // Use MediaPipe Camera helper to feed frames to FaceMesh
             if (!Camera || typeof Camera !== 'function') {
+                console.error('[BiometricScanner] Camera not available:', { Camera, type: typeof Camera });
                 throw new Error('Camera class not available. Please refresh the page.');
             }
-
+            
+            console.log('[BiometricScanner] Creating Camera instance...');
             const cam = new Camera(videoRef.current, {
                 onFrame: async () => {
                     if (faceMeshRef.current && videoRef.current) {
