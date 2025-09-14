@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:local": "VITE_API_URL=https://attendance-gov-backend.onrender.com vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",

@@ -73,7 +73,7 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
     const loadMediaPipeLibraries = useCallback(async (retryCount = 0) => {
         try {
             console.log(`[BiometricScanner] Loading MediaPipe libraries... (attempt ${retryCount + 1})`);
-            
+
             if (!faceMeshModuleRef.current) {
                 console.log('[BiometricScanner] Loading FaceMesh...');
                 try {
@@ -85,14 +85,14 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
                         console.log('[BiometricScanner] Trying alternative import...');
                         faceMeshModule = await import('@mediapipe/face_mesh/face_mesh.js');
                     }
-                    
+
                     console.log('[BiometricScanner] FaceMesh module keys:', Object.keys(faceMeshModule));
                     console.log('[BiometricScanner] FaceMesh available:', !!faceMeshModule.FaceMesh);
                     console.log('[BiometricScanner] FaceMesh default:', !!faceMeshModule.default);
-                    
+
                     // Try to get FaceMesh from different possible locations
                     let FaceMesh = faceMeshModule.FaceMesh || faceMeshModule.default?.FaceMesh || faceMeshModule.default;
-                    
+
                     // If still undefined, try loading from CDN
                     if (!FaceMesh || typeof FaceMesh !== 'function') {
                         console.log('[BiometricScanner] FaceMesh not found in module, trying CDN approach...');
@@ -102,14 +102,14 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
                             script.src = 'https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh@0.4.1633559619/face_mesh.js';
                             script.type = 'module';
                             document.head.appendChild(script);
-                            
+
                             // Wait for script to load
                             await new Promise((resolve, reject) => {
                                 script.onload = resolve;
                                 script.onerror = reject;
                                 setTimeout(() => reject(new Error('CDN load timeout')), 10000);
                             });
-                            
+
                             // Try to access from global scope
                             FaceMesh = (window as any).FaceMesh;
                             console.log('[BiometricScanner] CDN FaceMesh:', typeof FaceMesh);
@@ -117,9 +117,9 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
                             console.error('[BiometricScanner] CDN fallback failed:', cdnError);
                         }
                     }
-                    
+
                     console.log('[BiometricScanner] Resolved FaceMesh:', typeof FaceMesh);
-                    
+
                     faceMeshModuleRef.current = {
                         ...faceMeshModule,
                         FaceMesh: FaceMesh
@@ -129,70 +129,70 @@ const RealTimeBiometricScanner: React.FC<RealTimeBiometricScannerProps> = ({
                     throw error;
                 }
             }
-            
+
             if (!drawingUtilsModuleRef.current) {
                 console.log('[BiometricScanner] Loading drawing utils...');
                 const drawingUtilsModule = await import('@mediapipe/drawing_utils');
                 console.log('[BiometricScanner] Drawing utils module keys:', Object.keys(drawingUtilsModule));
-                
+
                 const drawConnectors = drawingUtilsModule.drawConnectors || drawingUtilsModule.default?.drawConnectors || drawingUtilsModule.default;
                 drawingUtilsModuleRef.current = {
                     ...drawingUtilsModule,
                     drawConnectors: drawConnectors
                 };
             }
-            
+
             if (!cameraUtilsModuleRef.current) {
                 console.log('[BiometricScanner] Loading camera utils...');
                 const cameraUtilsModule = await import('@mediapipe/camera_utils');
                 console.log('[BiometricScanner] Camera utils module keys:', Object.keys(cameraUtilsModule));
-                
+
                 const Camera = cameraUtilsModule.Camera || cameraUtilsModule.default?.Camera || cameraUtilsModule.default;
                 cameraUtilsModuleRef.current = {
                     ...cameraUtilsModule,
                     Camera: Camera
                 };
             }
-            
+
             // Wait a bit for modules to fully initialize
             await new Promise(resolve => setTimeout(resolve, 100));
-            
+
             // Verify all libraries are loaded
             const FaceMesh = faceMeshModuleRef.current?.FaceMesh;
             const Camera = cameraUtilsModuleRef.current?.Camera;
-            
+
             console.log('[BiometricScanner] FaceMesh type:', typeof FaceMesh);
             console.log('[BiometricScanner] Camera type:', typeof Camera);
-            
+
             if (!FaceMesh || typeof FaceMesh !== 'function') {
-                console.error('[BiometricScanner] FaceMesh check failed:', { 
-                    FaceMesh, 
+                console.error('[BiometricScanner] FaceMesh check failed:', {
+                    FaceMesh,
                     type: typeof FaceMesh,
-                    module: faceMeshModuleRef.current 
+                    module: faceMeshModuleRef.current
                 });
                 throw new Error('FaceMesh not properly loaded');
             }
             if (!Camera || typeof Camera !== 'function') {
-                console.error('[BiometricScanner] Camera check failed:', { 
-                    Camera, 
+                console.error('[BiometricScanner] Camera check failed:', {
+                    Camera,
                     type: typeof Camera,
-                    module: cameraUtilsModuleRef.current 
+                    module: cameraUtilsModuleRef.current
                 });
                 throw new Error('Camera not properly loaded');
             }
-            
+
             console.log('[BiometricScanner] All MediaPipe libraries loaded successfully');
             return true;
         } catch (error) {
             console.error('[BiometricScanner] Failed to load MediaPipe libraries:', error);
-            
+
             // Retry up to 3 times
             if (retryCount < 2) {
                 console.log(`[BiometricScanner] Retrying in 1 second... (${retryCount + 1}/3)`);
                 await new Promise(resolve => setTimeout(resolve, 1000));
                 return loadMediaPipeLibraries(retryCount + 1);
             }
-            
+
             return false;
         }
     }, []);
